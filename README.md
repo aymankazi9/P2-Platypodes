@@ -1,7 +1,8 @@
 # P2 - Platypodes COVID-19 Project 
 * Welcome to our Trimester 2 project for COVID-19. 
-* We wanted to make a interactive tracker to make COVID-19 data accesible to all. 
-* Other websites may be a bit difficult to navigate especially when cluttered with other health news rather than purely COVID-19 news, that's why we aim to create this clean website that will show you all the COVID-19 information that you will need to know!
+* With the recent rise of COVID numbers, we want users to be informed of the extent to which COVID is harming populations.
+* We wanted to make a interactive tracker to make COVID-19 data accessible to all in order to keep others educated about the crisis. 
+* Other websites may be a bit difficult to navigate especially when cluttered with other health news rather than purely COVID-19 news. That's why we aim to create this clean website that will show you all the COVID-19 information that you will need to know!
 * Learn more about our plan in the Project Plan below.
 
 ### Project Plan
