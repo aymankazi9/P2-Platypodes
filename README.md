@@ -11,7 +11,6 @@
 * [Project Plan](https://docs.google.com/document/d/1MceTKLU3TJTQg3PkqIcMLYa7U4R2ov4QtojF4i7mKLc/edit)
 
 ## Project Record
-
 __________________
 
 ### Scrum Board
