@@ -1,6 +1,5 @@
 # p2-Platypodes
 Welcome to our trimester 2 repository!
-<iframe
-  src="https://codepen.io/team/codepen/embed/preview/PNaGbb"
-  style="width:100%; height:300px;"
-></iframe>
+<figure class="video_container">
+<iframe src="https://docs.google.com/spreadsheets/d/1jAnvYpRmNu8BISIrkYGTLolOTmlCoKLbuHVWzCXJSY4/pubhtml?widget=true&amp;headers=false"></iframe>
+</figure>
