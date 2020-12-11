@@ -20,5 +20,5 @@ __________________
 
 ### Project Log
 * **12/10/20**: Updated README.md of this repository and worked further on expanding Project Plan and getting it closer to the completion. Worked mostly on adding Big Ticket Items to scrum board and making sure everything is staying on track
-* **12/9/20**: Worked on Project Plan and formulating ideas for implementing project
-* **12/2/20**: Repository was created
+* **12/09/20**: Worked on Project Plan and formulating ideas for implementing project
+* **12/01/20**: Repository was created
