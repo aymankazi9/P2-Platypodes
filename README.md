@@ -18,6 +18,10 @@ __________________
 * [Scrum Board](https://padlet.com/akazi3211/wlmfpjwnbuuf6qsm)
 
 ### Project Log
+* **12/11/20**: 
 * **12/10/20**: Updated README.md of this repository and worked further on expanding Project Plan and getting it closer to the completion. Worked mostly on adding Big Ticket Items to scrum board and making sure everything is staying on track
-* **12/09/20**: Worked on Project Plan and formulating ideas for implementing project
-* **12/01/20**: Repository was created
+* **12/09/20**: Worked on Project Plan and formulating ideas for implementing project. We learned more about SQLAlchemy and brainstormed ideas to use that in our project for creating the databse with the scraped data.
+* **12/08/20**: Created project plan document and added minor items to begin the thought process and workflow thinking for our project.
+* **12/04/20**: Brainstormed more ideas about project and was approved by the teacher. Our new idea will be a COVID-19 tracker that will be in an aethetically pleasing website. The database will be automatically updated. This process of database updates is explained in further detail in our scrum board and project plan which we will begin work on next week.
+* **12/03/20**: Thought about project ideas for this trimester and came up with an ASCII Database with many games, arts, animations all based on ASCII and designed to implement database workflow.
+* **12/01/20**: Repository was created, README.md added. No updates to README.md file or Repository as of yet. Users added from the team in order to begin work.
