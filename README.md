@@ -18,7 +18,7 @@ __________________
 * [Scrum Board](https://padlet.com/akazi3211/wlmfpjwnbuuf6qsm)
 
 ### Project Log
-* **12/11/20**: 
+* **12/11/20**: Completed the Project Plan and have all roles assigned to group members from the scrum board. Some peripheral goals are yet to be assigned, but those are in the final parts of this project. 
 * **12/10/20**: Updated README.md of this repository and worked further on expanding Project Plan and getting it closer to the completion. Worked mostly on adding Big Ticket Items to scrum board and making sure everything is staying on track
 * **12/09/20**: Worked on Project Plan and formulating ideas for implementing project. We learned more about SQLAlchemy and brainstormed ideas to use that in our project for creating the databse with the scraped data.
 * **12/08/20**: Created project plan document and added minor items to begin the thought process and workflow thinking for our project.
