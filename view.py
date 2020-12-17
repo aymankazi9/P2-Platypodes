@@ -4,26 +4,27 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-@app_route('/')
+@app.route('/')
 def home_route():
-    return render_template("home.html", model=model.setup)
+    return render_template("home.html", model=model.setup())
 
 
-@app_route('/tracker/')
+@app.route('/tracker/')
 def tracker_route():
-    return render_template("tracker.html", model=model.setup)
+    return render_template("tracker.html", model=model.setup())
 
 
-@app_route('/newspage/')
+@app.route('/newspage/')
 def news_route():
-    return render_template("newspage.html", model=model.setup)
+    return render_template("newspage.html", model=model.setup())
 
 
-@app_route('/aboutus/')
+@app.route('/aboutus/')
 def about_route():
-    return render_template("aboutus.html", model=model.setup)
+    return render_template("aboutus.html", model=model.setup())
 
 
-@app_route('/loginpage/')
+@app.route('/loginpage/')
 def loginsignup_route():
-    return render_template("loginpage.html", model=model.setup)
+    return render_template("loginpage.html", model=model.setup())
+
