@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+<img src="/static/ca.jpg" alt="California" usemap="#camap" width="612" height="612">
+
+<map name="camap">
+    <area shape="circle" coords="341,560,26" alt="San_Diego" href="/sandiego/">
+    <area shape="circle" coords="297,486,27" alt="Los_Angeles" href="/losangeles/">
+    <area shape="circle" coords="191,321,28" alt="San_Francisco" href="/sanfrancisco/">
+</map>
+{% endblock %}

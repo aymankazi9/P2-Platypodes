@@ -44,3 +44,7 @@ def sf_route():
 def ny_route():
     return render_template("ny.html", model=model.setup())
 
+@app.route('/test/')
+def test_route():
+    return render_template("test.html", model=model.setup())
+
