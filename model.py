@@ -2,21 +2,14 @@ def setup():
     name = "P2-Platypodes"
     source = {"name": name}
 
-    project1 = "Python Fundamentals"
+    project1 = "Frontend"
     projlinks1 = [
-        Link("Resources",
-             "https://docs.google.com/document/d/1xPvTYXyzO0jsr4B-iy9nA8Yu-baAbQeymXPf33ssAPI/edit?usp=sharing"),
-        Link("Repl Repository", "https://repl.it/@AZPragTeam/ThisIsItBois"),
-        Link("Project Plan", "https://padlet.com/pragadeesh3000/8d4vpki73p0z4eac")
+        Link("GitHub", "https://github.com/aymankazi9/P2-Platypodes/tree/main/templates")
     ]
 
-    # calculator links formatted under a list
-    project2 = "Calculator"
+    project2 = "Backend"
     projlinks2 = [
-        Link("Resources",
-             "https://docs.google.com/document/d/14RrAmqkMqANxfpfV2X1U6TVJ1xknYqJ0yg0QgrA3go8/edit?usp=sharing"),
-        Link("Github Repository", "https://github.com/PragadeeshRaj/Raj-Academy"),
-        Link("Project Plan", "https://padlet.com/pragadeesh3000/zg8kksq513p2dpsl")
+        Link("GitHub", "https://github.com/aymankazi9/P2-Platypodes/blob/main/model.py")
     ]
 
     # Project Objects
