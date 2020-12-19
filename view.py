@@ -28,3 +28,19 @@ def about_route():
 def loginsignup_route():
     return render_template("loginpage.html", model=model.setup())
 
+@app.route('/sandiego/')
+def sd_route():
+    return render_template("sd.html", model=model.setup())
+
+@app.route('/losangeles/')
+def la_route():
+    return render_template("la.html", model=model.setup())
+
+@app.route('/sanfrancisco/')
+def sf_route():
+    return render_template("sf.html", model=model.setup())
+
+@app.route('/newyork/')
+def ny_route():
+    return render_template("ny.html", model=model.setup())
+
