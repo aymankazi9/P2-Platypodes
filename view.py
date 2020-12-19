@@ -28,6 +28,14 @@ def about_route():
 def loginsignup_route():
     return render_template("loginpage.html", model=model.setup())
 
+@app.route('/feedback/')
+def fb_route():
+    return render_template("feedback.html", model=model.setup())
+
+@app.route('/FAQ/')
+def faq_route():
+    return render_template("FAQ.html", model=model.setup())
+
 @app.route('/sandiego/')
 def sd_route():
     return render_template("sd.html", model=model.setup())
