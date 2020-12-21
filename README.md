@@ -18,6 +18,12 @@ __________________
 * [Scrum Board](https://padlet.com/akazi3211/wlmfpjwnbuuf6qsm)
 
 ### Project Log
+* **12/20/20**: New file added called stats.py. Used stats.py to create a databse stemming from the web scraped data that was created through iteration. More explanation of iteration of web scraped data into lists can be explored within code comments of the project. 
+* **12/18/20**: Fully functional dropdown menu (finally!). CSS colors to add aesthetic to website that matched the image. Landing Page is complete and matches vision in aesthetics. Map test, developed a map that allows users to navigate throughout the trackers by the click of a map link in a visual representation.
+Note: WIP test, this is not going to be the final result let alone the final trackers. Trackers for the website will most likely consist of states in the United States rather than cities in California or other major cities.
+* **12/17/20**: Model.py and Jinja calls are fixed, issue with the classes that needed to be created. Source dictionary can now be successfuly pulled into templates. 
+* **12/15/20**: Website run commands moved to wsgi.py for more ergonomic and inline functions. App routes are now being recgonized, issue caused by minor typo. New templates added and are linked to navbar in base.html. No content in these templates, they only extend from base as of right now. Added templates: newspage.html, loginpage.html, aboutus.html)
+* **12/14/20**: Navigation bar added, worked on backend integration to the base.html navbar. More html templates coming soon to add more pages to the website. Issues: Website isn't working, issue with app routes, must be resolved in the future
 * **12/11/20**: Completed the Project Plan and have all roles assigned to group members from the scrum board. Some peripheral goals are yet to be assigned, but those are in the final parts of this project. 
 * **12/10/20**: Updated README.md of this repository and worked further on expanding Project Plan and getting it closer to the completion. Worked mostly on adding Big Ticket Items to scrum board and making sure everything is staying on track
 * **12/09/20**: Worked on Project Plan and formulating ideas for implementing project. We learned more about SQLAlchemy and brainstormed ideas to use that in our project for creating the databse with the scraped data.
