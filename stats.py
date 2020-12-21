@@ -44,9 +44,9 @@ for j in range(1,53): #len(tr_elements)): Iterating through data table, record b
 
     con = sl.connect('platypodes.db')
 
-try:
-    with con:
-        con.execute("""
+try: #try/except which allows for program to be run multiple times without failing despite table only being created once
+    with con:   #table with all the different columns that will be used, and type of data
+        con.execute("""               
             CREATE TABLE COVIDSTATS (
                 id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
                 state_name TEXT,
@@ -66,15 +66,15 @@ try:
 except:
     print("The table already exists.")
 with con:
-    data = con.execute("DELETE FROM COVIDSTATS")
+    data = con.execute("DELETE FROM COVIDSTATS") #deletes old data every time program is run so only new data is stored
 
 sql = 'INSERT INTO COVIDSTATS (id, state_name, total_cases, new_cases, total_deaths, new_deaths, total_recovered, active_cases, case_mill, death_mill, total_tests, test_mill, population) values(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)'
-
+#inserting into database
 with con:
     con.executemany(sql, col)
 
 with con:
     data = con.execute("SELECT * FROM COVIDSTATS")
     for row in data:
-        print(row)
+        print(row)        #query to verify inserting actually worked
 
