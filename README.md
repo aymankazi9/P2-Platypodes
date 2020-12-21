@@ -5,6 +5,15 @@
 * Other websites may be a bit difficult to navigate especially when cluttered with other health news rather than purely COVID-19 news. That's why we aim to create this clean website that will show you all the COVID-19 information that you will need to know!
 * Learn more about our plan in the Project Plan below.
 
+## Git Instructions
+* You can learn about running this project on your IDE in this section:
+* Go to Code home and click on the green "Code" button.
+* Click on the clipboard next to the Git url. 
+* Open up your IntelliJ and click "Run from Version Control".
+* Press "Ctrl + V" or "⌘ + V" and press the blue "Clone" button at the bottom.
+* Once the project is opened up, be sure to change the interpreter to Python 3.8 or above. 
+* Run the project from wsgi.py and you're all set!
+
 ### Project Plan
 * Here is where we started, we made a plan of action and hope to follow it closely and make this a COVID-19 tracker to be recokened with.
 * [Project Plan](https://docs.google.com/document/d/1MceTKLU3TJTQg3PkqIcMLYa7U4R2ov4QtojF4i7mKLc/edit)
