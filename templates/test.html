@@ -2,10 +2,11 @@
 
 {% block content %}
 <img src="/static/ca.jpg" alt="California" usemap="#camap" width="612" height="612">
-
-<map name="camap">
+<!-- image used for the <map> (california image with adjustable dimensions and an alternate title for later reference -->
+<map name="camap"> <!-- uses map attribute and assigns certain hrefs to an area attribute -->
     <area shape="circle" coords="341,560,26" alt="San_Diego" href="/sandiego/">
     <area shape="circle" coords="297,486,27" alt="Los_Angeles" href="/losangeles/">
     <area shape="circle" coords="191,321,28" alt="San_Francisco" href="/sanfrancisco/">
-</map>
+</map> <!-- area attribute defines link type (rectangle, circle, polygon). Coordinate define location of shape. alt for
+reference of city. href takes the user to the html template -->
 {% endblock %}

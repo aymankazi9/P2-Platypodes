@@ -1,15 +1,15 @@
 def setup():
     name = "P2-Platypodes"
-    source = {"name": name}
+    source = {"name": name}  # source dictionary used to define certain Jinja variables
 
-    project1 = "Frontend"
+    project1 = "Frontend"  # frontend links
     projlinks1 = [
         Link("GitHub", "https://github.com/aymankazi9/P2-Platypodes/tree/main/templates")
     ]
 
-    project2 = "Backend"
+    project2 = "Backend"  # backend links
     projlinks2 = [
-        Link("GitHub", "https://github.com/aymankazi9/P2-Platypodes/blob/main/model.py")
+        Link("GitHub", "https://github.com/aymankazi9/P2-Platypodes/blob/main/stats.py")
     ]
 
     # Project Objects
@@ -35,9 +35,9 @@ class Link():
         return self.href
 
 
-# Project data class contain project name and links (Link class objects)
+# Model data class contain model name and links (Link class objects)
 class Model():
-    # project data with name and links
+    # model data with name and links
     def __init__(self, name, links):
         self.name = name
         self.links = links
@@ -49,9 +49,9 @@ class Model():
         return self.links
 
 
-# Projects class contains person (owner) and multiple projects (Project class objects)
+# Models class contains person (owner) and multiple projects (Models class objects)
 class Models():
-    # HTML data with source and projects
+    # HTML data with source and models
     def __init__(self, source, model):
         self.source = source
         self.model = model
