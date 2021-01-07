@@ -4,7 +4,7 @@ import sqlite3 as sl
 
 url = 'https://www.worldometers.info/coronavirus/country/us/'  # URL
 page = requests.get(url) # Request the data
-doc = lh.fromstring(page.content) #convert the HTML data to string
+doc = lh.fromstring(page.content)  #convert the HTML data to string
 tr_elements = doc.xpath('//tr')
 col=[]  # empty list to append the collected records
 

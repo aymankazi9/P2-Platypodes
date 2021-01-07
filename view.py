@@ -2,6 +2,9 @@ import model  # import of data file
 
 from flask import Flask, render_template
 
+import model
+
+
 app = Flask(__name__)
 
 
