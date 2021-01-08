@@ -3,71 +3,82 @@
 </style>
 </head>
 <body>
-<h2>FEEDBACK FORM</h2>
-<div class="container">
-    <form>
-        <div class="row">
-            <div class="col-25">
-                <label for="fname">First Name</label>
-            </div>
-            <div class="col-75">
-                <input type="text" id="fname" name="firstname" placeholder="Your first name...">
-
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-25">
-                <label for="lname">Last Name</label>
-            </div>
-            <div class="col-75">
-                <input type="text" id="lname" name="lastname" placeholder="Your last name...">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-25">
-                <label for="email">Email Address</label>
-            </div>
-            <div class="col-75">
-                <input type="email" id="email" name="mailid" placeholder="Your email is...">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-25">
-                <label for="country">Country</label>
-            </div>
-            <div class="col-75">
-                <select id="country" name="country">
-                    <!-- similar to a dropdown menu with the options ot selct country of origin-->
-                    <option value="none">Select Country</option>
-                    <option value="australia">Australia</option>
-                    <option value="canada">Canada</option>
-                    <option value="usa">USA</option>
-                    <option value="russia">Russia</option>
-                    <option value="india">India</option>
-                    <option value="china">China</option>
-                </select>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-25">
-                <label for="feed_back">Feedback</label>
-            </div>
-            <div class="col-75">
-                <textarea id="subject" name="subject" placeholder="Write any additional questions or concerns." style="height:200px"></textarea>
-            </div>
-        </div>
-        <div class="row">
-            <input type="submit" value="Submit">
-        </div>
-    </form>
+<div class= "outside">
+    <h2>FEEDBACK FORM</h2>
 </div>
 
-</body>
- <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-* {
+<div class= "box">
+    <div class="container">
+        <form>
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">First Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Your first name...">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Last Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="email">Email Address</label>
+                </div>
+                <div class="col-75">
+                    <input type="email" id="email" name="mailid" placeholder="Your email is...">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="country">Country</label>
+                </div>
+                <div class="col-75">
+                    <select id="country" name="country">
+                        <!-- similar to a dropdown menu with the options ot selct country of origin-->
+                        <option value="none">Select Country</option>
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                        <option value="russia">Russia</option>
+                        <option value="india">India</option>
+                        <option value="china">China</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="feed_back">Feedback</label>
+                </div>
+                <div class="col-75">
+                    <textarea id="subject" name="subject" placeholder="Write any additional questions or concerns." style="height:200px"></textarea>
+                </div>
+            </div>
+            <div class="row" padding-left: 200px >
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+
+    </body>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+</div>
+
+
+
+
+
+ * {
   box-sizing: border-box;
 }
+
 
 input[type=text], select, textarea {
   width: 100%;
@@ -90,7 +101,7 @@ label {
 }
 
 input[type=submit] {
-  background-color: rgb(37, 116, 161);
+  background-color: rgb(52, 150, 151);
   color: white;
   padding: 12px 20px;
   border: none;
@@ -100,32 +111,54 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #349394;
 }
 
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #1d2f57;
+  padding: 20 px;
+}
+
+
+.outside {
+  color: white;
+  border-radius: 5px;
+  background-color: #006400;
   padding: 20px;
 }
 
 .col-25 {
+  text-color: white
   float: left;
   width: 25%;
   margin-top: 6px;
+  padding: 20px;
 }
 
 .col-75 {
-  float: left;
-  width: 75%;
-  margin-top: 6px;
+  float: right;
+  width: 70%;
+  margin-top: 20px;
 }
 
-/* Clear floats after the columns */
-.row:after {
+.box {
+    background-color: #006400;
+}
+
+
+
+<!--.row:after {
   content: "";
   display: table;
   clear: both;
+  color: #006400;
+} -->
+
+
+
+label {
+   color: white;
 }
 </html>
 {% endblock %}
