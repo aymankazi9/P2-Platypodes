@@ -43,19 +43,19 @@ def faq_route():
     return render_template("FAQ.html", model=model.setup())
 
 
-@app.route('/sandiego/')
-def sd_route():
-    return render_template("sd.html", model=model.setup())
+@app.route('/california/')
+def ca_route():
+    return render_template("ca.html", model=model.setup())
 
 
-@app.route('/losangeles/')
-def la_route():
-    return render_template("la.html", model=model.setup())
+@app.route('/texas/')
+def tx_route():
+    return render_template("tx.html", model=model.setup())
 
 
-@app.route('/sanfrancisco/')
-def sf_route():
-    return render_template("sf.html", model=model.setup())
+@app.route('/florida/')
+def fl_route():
+    return render_template("fl.html", model=model.setup())
 
 
 @app.route('/newyork/')

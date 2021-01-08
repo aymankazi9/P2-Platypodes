@@ -1,13 +1,27 @@
 {% extends "base.html" %}
 
+{% block head %}
+<title> {{name}} | Map </title>
+{% endblock %}
+
 {% block content %}
-<!--<img src="/static/ca.jpg" alt="California" usemap="#camap" width="612" height="612"> -->
+<img src="/static/us map.svg" alt="USA" usemap="#usamap" width="962" height="583">
 <!-- image used for the <map> (california image with adjustable dimensions and an alternate title for later reference -->
-<map name="camap"> <!-- uses map attribute and assigns certain hrefs to an area attribute -->
-    <area shape="circle" coords="341,560,26" alt="San_Diego" href="/sandiego/">
-    <area shape="circle" coords="297,486,27" alt="Los_Angeles" href="/losangeles/">
-    <area shape="circle" coords="191,321,28" alt="San_Francisco" href="/sanfrancisco/">
+<map name="usamap"> <!-- uses map attribute and assigns certain hrefs to an area attribute -->
+    <area shape="polygon" coords="31,143 98,159 78,225 149,332 154,350 146,364 139,366 140,375
+    96,369 94,355 86,345 79,347 77,337 73,337 61,325 46,321 46,304 35,274 39,265 28,253 32,241
+    26,231 18,211 22,192 16,174 26,161 30,143 " alt="California" href="/california/">
+    <area shape="polygon" coords="357,326 408,326 407,370 416,375 420,375 419,380 433,382 439,381
+    450,386 458,390 461,386 479,387 494,386 508,395 512,393 516,421 524,439 521,472 503,479 484,496
+    456,512 449,537 455,556 418,544 412,521 397,503 389,484 379,469 358,466 348,476 341,481 317,470
+    314,451 305,440 281,415 347,418 355,326 " alt="Texas" href="/texas/">
+    <area shape="polygon" coords="644,454 644,447 638,440 689,435 694,442 739,440 744,443 744,433
+    753,433 766,463 781,478 777,479 796,512 797,534 792,538 793,545 782,549 773,537 767,537 759,522
+    755,527 743,507 749,497 738,495 740,478 735,470 730,468 720,458 712,455 705,451 701,456 697,458
+    686,462 677,455 664,451 644,454 " alt="Florida" href="/florida/">
+    <area shape="polygon" coords="742,178 743,185 811,170 813,174 818,172 820,182 839,187 839,196
+    854,192 867,182 864,181 853,188 849,188 844,191 841,187 842,180 838,161 841,142 836,130 833,121
+    827,102 805,104 787,128 792,143 788,143 782,151 770,152 762,150 750,155 753,167 742,178 " alt="New York" href="/newyork/">
 </map> <!-- area attribute defines link type (rectangle, circle, polygon). Coordinate define location of shape. alt for
 reference of city. href takes the user to the html template -->
-<img src="/static/USA map.png" alt="USA" usemap="#camap" width="612" height="612">
 {% endblock %}
