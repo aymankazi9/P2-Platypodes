@@ -29,8 +29,13 @@ def about_route():
 
 
 @app.route('/loginpage/')
-def loginsignup_route():
+def login_route():
     return render_template("loginpage.html", model=model.setup())
+
+
+@app.route('/signuppage/')
+def signup_route():
+    return render_template("signup.html", model=model.setup())
 
 
 @app.route('/feedback/')
@@ -66,3 +71,8 @@ def ny_route():
 @app.route('/test/')
 def test_route():
     return render_template("test.html", model=model.setup())
+
+
+@app.route('/tos&p/')
+def tosp_route():
+    return render_template("tos&p.html", model=model.setup())
