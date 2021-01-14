@@ -6,193 +6,170 @@
 {% endblock %}
 
 {% block content %}
+
+
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
 body {
   font-family: Arial, Helvetica, sans-serif;
+  /*background-color: black;*/
 }
 
 * {
   box-sizing: border-box;
 }
 
-/* style the container */
+/* Add padding to containers */
 .container {
-  position: relative;
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px 0 30px 0;
+  padding: 16px;
+  background-color: white;
 }
 
-/* style inputs and link buttons */
-input,
-.btn {
+/* Full-width input fields */
+input[type=text], input[type=password] {
   width: 100%;
-  padding: 12px;
-  border: none;
-  border-radius: 4px;
-  margin: 5px 0;
-  opacity: 0.85;
+  padding: 15px;
+  margin: 5px 0 22px 0;
   display: inline-block;
-  font-size: 17px;
-  line-height: 20px;
-  text-decoration: none; /* remove underline from anchors */
+  border: none;
+  background: #f1f1f1;
 }
 
-input:hover,
-.btn:hover {
-  opacity: 1;
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
 }
 
 /* add appropriate colors to fb, twitter and google buttons */
 .fb {
   background-color: #3B5998;
   color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
 }
 
 .twitter {
   background-color: #55ACEE;
   color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
 }
 
 .google {
   background-color: #dd4b39;
   color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
 }
 
-/* style the submit button */
-input[type=submit] {
+.bgimg {
+  background-image: radial-gradient(#349697, #1c3057 );
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: #f2edae;
+  //font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
   background-color: #4CAF50;
   color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
   cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
 }
 
-input[type=submit]:hover {
-  background-color: #45a049;
+.registerbtn:hover {
+  opacity: 1;
 }
 
-/* Two-column layout */
-.col {
-  float: left;
-  width: 50%;
-  margin: auto;
-  padding: 0 50px;
-  margin-top: 6px;
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* vertical line */
-.vl {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
-  border: 2px solid #ddd;
-  height: 175px;
-}
-
-/* text inside the vertical line */
-.vl-innertext {
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
   background-color: #f1f1f1;
-  border: 1px solid #ccc;
-  border-radius: 50%;
-  padding: 8px 10px;
-}
-
-/* hide some text on medium and large screens */
-.hide-md-lg {
-  display: none;
-}
-
-/* bottom container */
-.bottom-container {
   text-align: center;
-  background-color: #666;
-  border-radius: 0px 0px 4px 4px;
-}
-
-/* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 650px) {
-  .col {
-    width: 100%;
-    margin-top: 0;
-  }
-  /* hide the vertical line */
-  .vl {
-    display: none;
-  }
-  /* show the hidden text on small screens */
-  .hide-md-lg {
-    display: block;
-    text-align: center;
-  }
 }
 </style>
 </head>
 <body>
 
-<h2 style="text-align:center;">Login Form</h2>
-
-<div class="container-fluid">
-    <form action="/action_page.php">
-    <!--<form class="form-signin" method="POST" action="/login">-->
-        <div class="row">
-            <h2 style="text-align:center">Login with Social Media or Manually</h2>
-            <div class="vl">
-                <span class="vl-innertext">or</span>
-            </div>
-
-            <div class="col">
-                <a href="https://www.facebook.com" class="fb btn">
-                    <i class="fa fa-facebook fa-fw"></i> Login with Facebook
-                </a>
-                <a href="https://twitter.com/login?lang=en-gb" class="twitter btn">
-                    <i class="fa fa-twitter fa-fw"></i> Login with Twitter
-                </a>
-                <a href="https://www.google.com/gmail/about/#" class="google btn"><i class="fa fa-google fa-fw">
-                </i> Login with Google+
-                </a>
-            </div>
-
-            <div class="col">
-                <div class="hide-md-lg">
-                    <p>Or sign in manually:</p>
-                </div>
-
-                <input type="text" name="username" placeholder="Username" required>
-                <input type="password" name="password" placeholder="Password" required>
-                <input type="submit" value="Login">
-
-            </div>
-
-        </div>
-    </form>
-</div>
-
-<div class="bottom-container">
-    <div class="row">
+<form action="/action_page.php">
+    <div class="container">
+        <h1 style="text-align:center;">Login</h1>
+        <p>Fill in the following information to login to your account.</p>
+        <hr>
+<div class="hide-md-lg">
+<h2> Login Socially:</h2>
+    </div>
+    <div class="container-fluid">
         <div class="col">
-            <a href="#" style="color:white" class="btn">Sign up</a>
-        </div>
-        <div class="col">
-            <a href="#" style="color:white" class="btn">Forgot password?</a>
+            <a href="https://www.facebook.com" class="fb btn">
+                <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+            </a>
+            <a href="https://twitter.com/login?lang=en-gb" class="twitter btn">
+                <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+            </a>
+            <a href="https://www.google.com/gmail/about/#" class="google btn"><i class="fa fa-google fa-fw">
+            </i> Login with Google
+            </a>
         </div>
     </div>
-</div>
+
+        <div class="col">
+            <div class="hide-md-lg">
+                <h2>Or login manually:</h2>
+            </div>
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+        <hr>
+
+        <button type="submit" class="registerbtn">Login</button>
+    </div>
+
+    <div class="container signin">
+        <p>Don't have an account? <a href="/signuppage/">Register</a>.</p>
+    </div>
+    <hr>
+    <div class="container signin">
+         <a href="/signuppage/">Forgot Password?</a>
+    </div>
+</form>
 
 </body>
 </html>
 
 {% endblock %}
-
