@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 
+
 {% block head %}
 <title> {{name}} | Login </title>
 {% endblock %}
@@ -141,11 +142,11 @@ input[type=submit]:hover {
 </head>
 <body>
 
-<h2 style="text-align:center;">Login and Signup Form</h2>
-<p>Create or login to your account below.</p>
+<h2 style="text-align:center;">Login Form</h2>
 
-<div class="container">
+<div class="container-fluid">
     <form action="/action_page.php">
+    <!--<form class="form-signin" method="POST" action="/login">-->
         <div class="row">
             <h2 style="text-align:center">Login with Social Media or Manually</h2>
             <div class="vl">
@@ -153,13 +154,13 @@ input[type=submit]:hover {
             </div>
 
             <div class="col">
-                <a href="#" class="fb btn">
+                <a href="https://www.facebook.com" class="fb btn">
                     <i class="fa fa-facebook fa-fw"></i> Login with Facebook
                 </a>
-                <a href="#" class="twitter btn">
+                <a href="https://twitter.com/login?lang=en-gb" class="twitter btn">
                     <i class="fa fa-twitter fa-fw"></i> Login with Twitter
                 </a>
-                <a href="#" class="google btn"><i class="fa fa-google fa-fw">
+                <a href="https://www.google.com/gmail/about/#" class="google btn"><i class="fa fa-google fa-fw">
                 </i> Login with Google+
                 </a>
             </div>
@@ -172,6 +173,7 @@ input[type=submit]:hover {
                 <input type="text" name="username" placeholder="Username" required>
                 <input type="password" name="password" placeholder="Password" required>
                 <input type="submit" value="Login">
+
             </div>
 
         </div>
@@ -193,3 +195,4 @@ input[type=submit]:hover {
 </html>
 
 {% endblock %}
+
