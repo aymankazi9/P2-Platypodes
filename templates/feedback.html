@@ -5,153 +5,76 @@
 {% endblock %}
 
 {% block content %}
-</style>
-</head>
-<body>
-<div class= "outside">
-    <h2>FEEDBACK FORM</h2>
-</div>
-
-<div class= "box">
-    <div class="container">
-        <form>
-            <div class="row">
-                <div class="col-25">
-                    <label for="fname">First Name</label>
-                </div>
-                <div class="col-75">
-                    <input type="text" id="fname" name="firstname" placeholder="Your first name...">
-
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-25">
-                    <label for="lname">Last Name</label>
-                </div>
-                <div class="col-75">
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name...">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-25">
-                    <label for="email">Email Address</label>
-                </div>
-                <div class="col-75">
-                    <input type="email" id="email" name="mailid" placeholder="Your email is...">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-25">
-                    <label for="country">Country</label>
-                </div>
-                <div class="col-75">
-                    <select id="country" name="country">
-
-                        <option value="none">Select Country</option>
-                        <option value="australia">Australia</option>
-                        <option value="canada">Canada</option>
-                        <option value="usa">USA</option>
-                        <option value="russia">Russia</option>
-                        <option value="india">India</option>
-                        <option value="china">China</option>
-                    </select>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-25">
-                    <label for="feed_back">Feedback</label>
-                </div>
-                <div class="col-75">
-                    <textarea id="subject" name="subject" placeholder="Write any additional questions or concerns." style="height:200px"></textarea>
-                </div>
-            </div>
-            <div class="row"  >
-                <input type="submit" value="Submit">
-            </div>
-        </form>
-    </div>
-
-    </body>
-     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <style>
-</div>
-
-
-
-
-
- * {
-  box-sizing: border-box;
-}
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
 
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
-  border: 1px solid rgb(70, 68, 68);
+  border: 1px solid #ccc;
   border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
   resize: vertical;
-}
-input[type=email], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid rgb(70, 68, 68);
-  border-radius: 4px;
-  resize: vertical;
-}
-
-label {
-  padding: 12px 12px 12px 0;
-  display: inline-block;
 }
 
 input[type=submit] {
-  background-color: rgb(52, 150, 151);
+  background-color: #4CAF50;
   color: white;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  float: right;
 }
 
 input[type=submit]:hover {
-  background-color: #349394;
+  background-color: #45a049;
 }
 
 .container {
   border-radius: 5px;
-  background-color: #1d2f57;
-  padding: 20 px;
-}
-
-
-.outside {
-  color: white;
-  border-radius: 5px;
-  background-color: #006400;
+  background-color: #f2f2f2;
   padding: 20px;
 }
+</style>
+</head>
+<body>
 
-.col-25 {
-  text-color: white
-  float: left;
-  width: 25%;
-  margin-top: 6px;
-  padding: 20px;
-}
+<h1 style="text-align:center;"> Feedback Form </h1>
 
-.col-75 {
-  float: right;
-  width: 70%;
-  margin-top: 20px;
-}
+<div class="container">
+    <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your first name...">
 
-.box {
-    background-color: #006400;
-}
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name...">
 
-label {
-   color: white;
-}
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Your email...">
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+            <option value="usa">United States of America</option>
+            <option value="uk">United Kingdom</option>
+            <option value="canada">Canada</option>
+            <option value="australia">Australia</option>
+            <option value="india">India</option>
+            <option value="other">Other</option>
+        </select>
+
+        <label for="feedback">Feedback</label>
+        <textarea id="feedback" name="feedback" placeholder="Your feedback..." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+</body>
 </html>
 {% endblock %}
