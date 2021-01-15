@@ -72,6 +72,38 @@
     <p>Trouble breathing, persistent pain or pressure in the chest, new confusion, inability to wake or stay awake, or bluish lips or face.</p>
 </div>
 </center>
+<!--<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>-->
+
+<h1 style="text-align:center;"> COVID-19 Prevention</h1>
+<!--<p style="text-align:center;"> Wear a mask. Save lives.</p>-->
+
+<button class="collapsible">The best way to prevent illness is to avoid being exposed to this virus. Learn how COVID-19 spreads and practice these actions to help prevent the spread of this illness. </button>
+<div class="content">
+    <p>To help prevent the spread of COVID-19, everyone should:
+        Clean your hands often, either with soap and water for 20 seconds or a hand sanitizer that contains at least 60% alcohol.
+        Avoid close contact with people who are sick.
+        Put distance between yourself and other people (at least 6 feet).
+        Cover your mouth and nose with a mask when around others.
+        Cover your cough or sneeze with a tissue, then throw the tissue in the trash.
+        Clean and disinfect frequently touched objects and surfaces daily.
+        CDC recommends that people wear masks in public settings and when around people outside of their household, especially when other social distancing measures are difficult to maintain.
+        Masks may help prevent people who have COVID-19 from spreading the virus to others.</p>
+</div>
 <script>
 var coll = document.getElementsByClassName("collapsible");
 var i;
@@ -89,21 +121,6 @@ for (i = 0; i < coll.length; i++) {
 }
 </script>
 
-<h1 style="text-align:center;"> COVID-19 Prevention</h1>
-<!--<p style="text-align:center;"> Wear a mask. Save lives.</p>-->
-
-<button class="collapsible">The best way to prevent illness is to avoid being exposed to this virus. Learn how COVID-19 spreads and practice these actions to help prevent the spread of this illness. </button>
-<div class="content">
-    <p>To help prevent the spread of COVID-19, everyone should:
-        Clean your hands often, either with soap and water for 20 seconds or a hand sanitizer that contains at least 60% alcohol.
-        Avoid close contact with people who are sick.
-        Put distance between yourself and other people (at least 6 feet).
-        Cover your mouth and nose with a mask when around others.
-        Cover your cough or sneeze with a tissue, then throw the tissue in the trash.
-        Clean and disinfect frequently touched objects and surfaces daily.
-        CDC recommends that people wear masks in public settings and when around people outside of their household, especially when other social distancing measures are difficult to maintain.
-        Masks may help prevent people who have COVID-19 from spreading the virus to others.</p>
-</div>
 
 <h1 style="text-align:center;">Learn More</h1>
 {% endblock %}
