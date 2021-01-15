@@ -9,12 +9,12 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
+
 
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
+  background-color: #f2efd0;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
@@ -24,7 +24,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: #6aa461;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -33,19 +33,24 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #5ba650;
 }
 
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #f2edae;
   padding: 20px;
 }
+
 </style>
 </head>
-<body>
+<body style = "background-color: #1c3057;">
 
-<h1 style="text-align:center;"> Feedback Form </h1>
+<h1 style="text-align:center; color: #f2edae"> Feedback Form </h1>
+<h3 style="color: #1c3057">~</h3>
+<h5 style="text-align:center; color: #f2edae">As developers, we heavily value your feedback. If you face any issues or just have comments
+    about the website, use this form as a way to contact us!</h5>
+<h1 style="color: #1c3057">~</h1>
 
 <div class="container">
     <form action="/action_page.php">
@@ -58,13 +63,11 @@ input[type=submit]:hover {
         <label for="email">Email</label>
         <input type="text" id="email" name="email" placeholder="Your email...">
 
-        <label for="country">Country</label>
-        <select id="country" name="country">
-            <option value="usa">United States of America</option>
-            <option value="uk">United Kingdom</option>
-            <option value="canada">Canada</option>
-            <option value="australia">Australia</option>
-            <option value="india">India</option>
+        <label for="type">Feedback Type</label>
+        <select id="type" name="type">
+            <option value="help">Help</option>
+            <option value="question">Question</option>
+            <option value="comment">Comment</option>
             <option value="other">Other</option>
         </select>
 
