@@ -31,7 +31,7 @@ __________________
 * [Scrum Board](https://padlet.com/akazi3211/wlmfpjwnbuuf6qsm)
 
 ### Project Log
-* **01/15/20**: Deployment is complete, users can now use an external IP to access the website without having to pull from git. Runtime link is as follows: [link]http://76.176.59.167. Paste into your browser to access.
+* **01/15/20**: Deployment is complete, users can now use an external IP to access the website without having to pull from git. Runtime link is as follows: http://76.176.59.167. Paste into your browser to access.
 * **01/14/20**: Aesthetics 100% complete across the website. Every page carries the website's aesthetics. As of right now, the website's frontend materials are complete. Javascript also added to the News Page to create a gradient. May be utilizing that for other pages to come. Countdown timer added to News Page for interesting "Coming Soon" notification. Updated Feedback Forms to be more insightful of user feedback rather than just storing user data. Still requires backend support to file the feedback into the database.
 * **01/13/20**: Added lots of CSS to login and signup page to fix the aesthetics on those pages. Need backend support for compiling data and being able to access logins. Javascript to be added very soon.
 * **01/11/20**: Employment of CSS and beginning to think about the theme of the website. Current theme settled on: Navy Blue for the borders, Cream/Black for the text, light cream for the text entries, green for highlights on the website. CSS will be applied to various parts of the website eventually to fit a theme in the website.
