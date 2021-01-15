@@ -5,6 +5,10 @@
 * Other websites may be a bit difficult to navigate especially when cluttered with other health news rather than purely COVID-19 news. That's why we aim to create this clean website that will show you all the COVID-19 information that you will need to know!
 * Learn more about our plan in the Project Plan below.
 
+## Run Instructions
+* Paste this link into your browser window
+* [Website](76.176.59.167)
+
 ## Git Instructions
 * You can learn about running this project on your IDE in this section:
 * Go to Code home and click on the green "Code" button.
