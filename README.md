@@ -31,12 +31,16 @@ __________________
 * [Scrum Board](https://padlet.com/akazi3211/wlmfpjwnbuuf6qsm)
 
 ### Project Log
-* **01/15/20**: Deployment is complete, users can now use an external IP to access the website without having to pull from git. Runtime link is as follows: http://76.176.59.167. Paste into your browser to access.
-* **01/14/20**: Aesthetics 100% complete across the website. Every page carries the website's aesthetics. As of right now, the website's frontend materials are complete. Javascript also added to the News Page to create a gradient. May be utilizing that for other pages to come. Countdown timer added to News Page for interesting "Coming Soon" notification. Updated Feedback Forms to be more insightful of user feedback rather than just storing user data. Still requires backend support to file the feedback into the database.
-* **01/13/20**: Added lots of CSS to login and signup page to fix the aesthetics on those pages. Need backend support for compiling data and being able to access logins. Javascript to be added very soon.
-* **01/11/20**: Employment of CSS and beginning to think about the theme of the website. Current theme settled on: Navy Blue for the borders, Cream/Black for the text, light cream for the text entries, green for highlights on the website. CSS will be applied to various parts of the website eventually to fit a theme in the website.
-* **01/07/20**: Etensive work done to creating tracker pages and connecting them to the US map. 4 states are currently defined: Calfornia, Florida, Texas, and New York. Data has yet to be forwarded to the frontend files, but the aesthetic portion of the tracker pages and map page is complete.
-* **01/04/20**: Map template received changes on colors and theme in general. Map template is now all of United States, California map is removed. Map template id currently dysfunctional with no <area> defined at the moment.
+
+#### January 2021
+* **01/15/21**: Deployment is complete, users can now use an external IP to access the website without having to pull from git. Runtime link is as follows: http://76.176.59.167. Paste into your browser to access.
+* **01/14/21**: Aesthetics 100% complete across the website. Every page carries the website's aesthetics. As of right now, the website's frontend materials are complete. Javascript also added to the News Page to create a gradient. May be utilizing that for other pages to come. Countdown timer added to News Page for interesting "Coming Soon" notification. Updated Feedback Forms to be more insightful of user feedback rather than just storing user data. Still requires backend support to file the feedback into the database.
+* **01/13/21**: Added lots of CSS to login and signup page to fix the aesthetics on those pages. Need backend support for compiling data and being able to access logins. Javascript to be added very soon.
+* **01/11/21**: Employment of CSS and beginning to think about the theme of the website. Current theme settled on: Navy Blue for the borders, Cream/Black for the text, light cream for the text entries, green for highlights on the website. CSS will be applied to various parts of the website eventually to fit a theme in the website.
+* **01/07/21**: Etensive work done to creating tracker pages and connecting them to the US map. 4 states are currently defined: Calfornia, Florida, Texas, and New York. Data has yet to be forwarded to the frontend files, but the aesthetic portion of the tracker pages and map page is complete.
+* **01/04/21**: Map template received changes on colors and theme in general. Map template is now all of United States, California map is removed. Map template id currently dysfunctional with no <area> defined at the moment.
+
+#### December 2020
 * **12/20/20**: New file added called stats.py. Used stats.py to create a databse stemming from the web scraped data that was created through iteration. More explanation of iteration of web scraped data into lists can be explored within code comments of the project. 
 * **12/18/20**: Fully functional dropdown menu (finally!). CSS colors to add aesthetic to website that matched the image. Landing Page is complete and matches vision in aesthetics. Map test, developed a map that allows users to navigate throughout the trackers by the click of a map link in a visual representation.
 Note: WIP test, this is not going to be the final result let alone the final trackers. Trackers for the website will most likely consist of states in the United States rather than cities in California or other major cities.
