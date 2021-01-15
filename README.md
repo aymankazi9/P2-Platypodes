@@ -7,7 +7,7 @@
 
 ## Run Instructions
 * Paste this link into your browser window
-* [Website](76.176.59.167)
+* [Website](http://76.176.59.167)
 
 ## Git Instructions
 * You can learn about running this project on your IDE in this section:
