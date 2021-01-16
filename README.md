@@ -22,8 +22,38 @@
 * Here is where we started, we made a plan of action and hope to follow it closely and make this a COVID-19 tracker to be recokened with.
 * [Project Plan](https://docs.google.com/document/d/1MceTKLU3TJTQg3PkqIcMLYa7U4R2ov4QtojF4i7mKLc/edit)
 
-## Project Record
+------------------
+
+# Delivery of Running Code and Big Ticket Items
+### Week of 1/11 - 1/15
+## Frontend Aesthetics and Navigation 
+* A single theme was used throughout the website.
+  * The theme was designed based off of the home page. 
+  * The pages are easy to access through the Navbar at the top.
+* All of the informational and technical pages use the same theme.
+  * The Login and Sign Up pages have custom entry boxes and buttons to fit the theme.
+  * The Feedback form also has similar properties to the login/sign up pages.
+  * The FAQ page uses the same color scheme as the rest of the site.
+  * The tracker pages that we have also use a similar theme, which will also be used for the rest of trackers later on.
+## Covid-19 Statistics Database
+* Our team web-scraped data from informational Covid-19 wesites through the use of APIs.
+  * The scraped data is stored in our database. 
+  * The data will later be formatted and didplayed on our tracker pages and our map.
+## User-Interactive Map
+* This is a main feature for our website. Our map will display data from all of the states and will be available with a click of a button.
+  * Coordinates of each vertex are placed within the HTML <area> tags to define the outline of the irregular shapes.
+  * Scalable vector graphics (.svg) will later be used for the same conveniece on multiple devices.
+## JavaScript and CSS Styling
+* Incorporating JS and CSS within our HTML files will enable our team to deliver information effectively. 
+  * Our group used CSS to make a single theme for the website, 1) to reduce variance between our pages and make them look complete, and 2) simplify the code while expanding its use.
+  * CSS were heavily used in the News page. A new gradient background with thematic colors was used, as well as the color of the font. 
+  * JavaScript was used to make a timer to display the time of release.
+### Links to each of the completed ticket items can found in the COMPLETED section on the [Scrum Board](https://padlet.com/akazi3211/wlmfpjwnbuuf6qsm).
+### Click on this [runtime link](http://76.176.59.167) or type the following into your browser: 76.176.59.167.
+
 __________________
+
+## Project Record
 
 ### Scrum Board
 * Big Ticket items are layed out here for the fundamentals of our project that are nonegotiable.
