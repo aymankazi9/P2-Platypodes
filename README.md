@@ -35,20 +35,24 @@
   * The Feedback form also has similar properties to the login/sign up pages.
   * The FAQ page uses the same color scheme as the rest of the site.
   * The tracker pages that we have also use a similar theme, which will also be used for the rest of trackers later on.
+* Simply click around the navbar to see our theme at use.
 ## Covid-19 Statistics Database
 * Our team web-scraped data from informational Covid-19 wesites through the use of APIs.
   * The scraped data is stored in our database. 
   * The data will later be formatted and didplayed on our tracker pages and our map.
+* Visit this link to view the databse: [Databse Creation](https://github.com/aymankazi9/P2-Platypodes/blob/main/stats.py) and [Databse](https://github.com/aymankazi9/P2-Platypodes/blob/main/platypodes.db)
 ## User-Interactive Map
 * This is a main feature for our website. Our map will display data from all of the states and will be available with a click of a button.
   * Coordinates of each vertex are placed within the HTML <area> tags to define the outline of the irregular shapes.
   * Scalable vector graphics (.svg) will later be used for the same conveniece on multiple devices.
+* To see the map in action, just click on the "COVID-19 Map" item on our navigation bar. 
 ## JavaScript and CSS Styling
 * Incorporating JS and CSS within our HTML files will enable our team to deliver information effectively. 
   * Our group used CSS to make a single theme for the website, 1) to reduce variance between our pages and make them look complete, and 2) simplify the code while expanding its use.
   * CSS were heavily used in the News page. A new gradient background with thematic colors was used, as well as the color of the font. 
   * JavaScript was used to make a timer to display the time of release.
-### Links to each of the completed ticket items can found in the COMPLETED section on the [Scrum Board](https://padlet.com/akazi3211/wlmfpjwnbuuf6qsm).
+* To see our Styling and Javascript in use, click around the different pages of our wesite in the navbar. To view the Javascript at work, click on the "News" item on our navigation bar.
+### The raw code and more details for each of the completed ticket items can found detailed in the COMPLETED section on the [Scrum Board](https://padlet.com/akazi3211/wlmfpjwnbuuf6qsm).
 ### Click on this [runtime link](http://76.176.59.167) or type the following into your browser: 76.176.59.167.
 
 __________________
