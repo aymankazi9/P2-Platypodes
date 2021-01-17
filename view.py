@@ -1,15 +1,15 @@
-import model  # import of data file
-
-from flask import Flask, render_template
-
+from flask import Flask
 import model
-
-
+from flask import Flask
+import model
+from flask import render_template
+import sqlite3 as sl3
 app = Flask(__name__)
-
+import stats
 
 @app.route('/')  # app routes to various html pages that we have assigned it to
 def home_route():
+    stats.fetch_web_data()
     return render_template("home.html", model=model.setup())
 
 
@@ -67,12 +67,23 @@ def fl_route():
 def ny_route():
     return render_template("ny.html", model=model.setup())
 
+@app.route('/map/')
+def map_route():
+    conn = sl3.connect('platypodes.db')
+    c=conn.cursor()
+    c.execute("SELECT * FROM COVIDSTATS")
+    #rows=c.fetchall()
+    #print(rows)
+    #with conn:
+        #data = conn.execute("SELECT * FROM COVIDSTATS")
+    #for row in data:
+        #print(row)
 
-@app.route('/test/')
-def test_route():
-    return render_template("test.html", model=model.setup())
+    return render_template("map.html", rows=c.fetchall(), model=model.setup())
+
 
 
 @app.route('/tos&p/')
 def tosp_route():
     return render_template("tos&p.html", model=model.setup())
+

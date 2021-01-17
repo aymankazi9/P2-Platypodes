@@ -5,6 +5,7 @@
 {% endblock %}
 
 {% block content %}
+
 <body style="background-color: #1c3057;">
     <h1 style="text-align:center; color: #f2edae"> COVID-19 Interactive Map </h1>
     <h3 style="color: #1c3057">~</h3>
@@ -41,4 +42,46 @@ img {
     827,102 805,104 787,128 792,143 788,143 782,151 770,152 762,150 750,155 753,167 742,178 " alt="New York" href="/newyork/">
 </map> <!-- area attribute defines link type (rectangle, circle, polygon). Coordinate define location of shape. alt for
 reference of city. href takes the user to the html template -->
+
+<table class="table table-hover">
+    <thead>
+    <tr>
+        <th style="color: #f2edae">State Id</th>
+        <th style="color: #f2edae">State Name</th>
+        <th style="color: #f2edae">Total Cases</th>
+        <th style="color: #f2edae">New Cases </th>
+        <th style="color: #f2edae">Total Deaths</th>
+        <th style="color: #f2edae">New Deaths</th>
+        <th style="color: #f2edae">Total Recovered</th>
+        <th style="color: #f2edae">Active Cases</th>
+        <th style="color: #f2edae">Cases per Million</th>
+        <th style="color: #f2edae">Deaths per Million</th>
+        <th style="color: #f2edae">Total Tests</th>
+        <th style="color: #f2edae">Tests per Million</th>
+        <th style="color: #f2edae">Population</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for row in rows %}
+    <tr>
+        <td style="color: #f2edae">{{row[0]}}</td>
+        <td style="color: #f2edae">{{row[1]}}</td>
+        <td style="color: #f2edae">{{row[2]}}</td>
+        <td style="color: #f2edae" >{{row[3]}}</td>
+        <td style="color: #f2edae">{{row[4]}}</td>
+        <td style="color: #f2edae">{{row[5]}}</td>
+        <td style="color: #f2edae">{{row[6]}}</td>
+        <td style="color: #f2edae">{{row[7]}}</td>
+        <td style="color: #f2edae">{{row[8]}}</td>
+        <td style="color: #f2edae">{{row[9]}}</td>
+        <td style="color: #f2edae">{{row[10]}}</td>
+        <td style="color: #f2edae">{{row[11]}}</td>
+        <td style="color: #f2edae">{{row[12]}}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+
+
 {% endblock %}
