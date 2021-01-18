@@ -36,7 +36,7 @@
   * The [Feedback form](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/feedback.html#L14-L33) also has similar properties to the login/sign up pages.
   * The [FAQ page](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/FAQ.html#L15-L47) uses the same color scheme as the rest of the site.
   * The tracker pages that we have also use a similar theme, which will also be used for the rest of trackers later on.
-* Simply click around the navbar to see our theme at use.
+* Simply click around the navbar of our [website](http://76.176.59.167/) to see our theme at use.
 
 ## Covid-19 Statistics Database [Link to Ticket](https://github.com/aymankazi9/P2-Platypodes/projects/1#card-53055671)
 * Our team web-scraped data from informational Covid-19 wesites through the use of APIs.
