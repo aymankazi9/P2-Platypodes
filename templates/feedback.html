@@ -53,7 +53,7 @@ input[type=submit]:hover {
 <h1 style="color: #1c3057">~</h1>
 
 <div class="container">
-    <form action="feedback.php" method="post">
+    <form action="{{ url_for('feedback_form') }}" method="post">
         <label for="fname">First Name</label>
         <input type="text" id="fname" name="firstname" placeholder="Your first name...">
 
@@ -73,6 +73,7 @@ input[type=submit]:hover {
 
         <label for="feedback">Feedback</label>
         <textarea id="feedback" name="feedback" placeholder="Please provide your feedback..." style="height:200px"></textarea>
+
 
         <input type="submit" value="Submit">
     </form>

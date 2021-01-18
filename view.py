@@ -6,6 +6,8 @@ from flask import render_template
 import sqlite3 as sl3
 app = Flask(__name__)
 import stats
+import storefb
+from flask import request
 
 @app.route('/')  # app routes to various html pages that we have assigned it to
 def home_route():
@@ -81,7 +83,22 @@ def map_route():
 
     return render_template("map.html", rows=c.fetchall(), model=model.setup())
 
-
+@app.route('/feedback_form', methods=['POST'])
+def feedback_form():
+    fname = request.form['firstname']
+    lname = request.form['lastname']
+    mailid = request.form['email']
+    service = request.form['type']
+    opinion = request.form['feedback']
+    storefb.insertfeedback(fname,lname,mailid,service,opinion)
+    '''
+    print (fname)
+    print (lname)
+    print (mailid)
+    print(service)
+    print(opinion)
+    '''
+    return render_template("feedback.html", model=model.setup())
 
 @app.route('/tos&p/')
 def tosp_route():
