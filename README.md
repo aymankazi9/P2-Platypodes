@@ -6,16 +6,16 @@
 * Learn more about our plan in the Project Plan below.
 
 ## Run Instructions
-* Paste this link into your browser window
+* Paste this link into your browser window or simply click on the link.
 * [Website](http://76.176.59.167)
 
 ## Git Instructions
 * You can learn about running this project on your IDE in this section:
 * Go to Code home and click on the green "Code" button.
 * Click on the clipboard next to the Git url. 
-* Open up your IntelliJ and click "Run from Version Control".
+* Open up your IDE and "Run from Version Control".
 * Press "Ctrl + V" or "⌘ + V" and press the blue "Clone" button at the bottom.
-* Once the project is opened up, be sure to change the interpreter to Python 3.8 or above. 
+* Once the project is opened up, be sure to change the interpreter to any version of Python 3. 
 * Run the project from wsgi.py and you're all set!
 
 ### Project Plan
@@ -46,7 +46,7 @@
 
 ## User-Interactive Map [Link to Ticket](https://github.com/aymankazi9/P2-Platypodes/projects/1#card-53057424)
 * This is a main feature for our website. Our map will display data from all of the states and will be available with a click of a button.
-  * Coordinates of each vertex are placed within the HTML [<area> tags](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/map.html#L57-L59) to define the outline of the irregular shapes.
+  * Coordinates of each vertex are placed within the HTML <area> [tags](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/map.html#L57-L59) to define the outline of the irregular shapes.
   * Scalable vector graphics (.svg) will later be used for the same conveniece on multiple devices. [Example](https://github.com/aymankazi9/P2-Platypodes/blob/main/static/us%20map.svg)
 * To see the map in action, visit the [COVID-19 Map](http://76.176.59.167/test/) on our website.
 
@@ -58,7 +58,7 @@
   * Example of CSS usage in our feedback form: [link](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/feedback.html#L14-L43)
 * To see our Styling and Javascript in use, click around the different pages of our [wesite](http://76.176.59.167) in the navbar. To view the Javascript at work, click on the ["News"](http://76.176.59.167/newspage/) item on our navigation bar.
 
-### The raw code and more details for each of the completed ticket items can found detailed in the COMPLETED section on the [Scrum Board](https://padlet.com/akazi3211/wlmfpjwnbuuf6qsm).
+### The raw code and more details for each of the completed ticket items can found detailed in the COMPLETED section on the [Scrum Board](https://github.com/aymankazi9/P2-Platypodes/projects/1?fullscreen=true).
 
 ### Click on this [runtime link](http://76.176.59.167) or type the following into your browser: 76.176.59.167.
 
@@ -69,7 +69,7 @@ __________________
 ### Scrum Board
 * Big Ticket items are layed out here for the fundamentals of our project that are nonegotiable.
 * Some parts of the scrum board include minor bits that can be taken out if necessary. This is an easy way to track the progress and how far we are getting into the project. It can also be used to recognize lagging behind in our project and straighten up before the deadline.
-* [Scrum Board](https://padlet.com/akazi3211/wlmfpjwnbuuf6qsm)
+* [Scrum Board](https://github.com/aymankazi9/P2-Platypodes/projects/1?fullscreen=true)
 
 ### Project Log
 
