@@ -58,7 +58,7 @@
   * Example of CSS usage in our feedback form: [link](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/feedback.html#L14-L43)
 * To see our Styling and Javascript in use, click around the different pages of our [wesite](http://76.176.59.167) in the navbar. To view the Javascript at work, click on the ["News"](http://76.176.59.167/newspage/) item on our navigation bar.
 
-### The raw code and more details for each of the completed ticket items can found detailed in the COMPLETED section on the [Scrum Board](https://github.com/aymankazi9/P2-Platypodes/projects/1?fullscreen=true).
+### More details for each of the completed ticket items can found detailed in the COMPLETED section on the [Scrum Board](https://github.com/aymankazi9/P2-Platypodes/projects/1#column-12515206).
 
 ### Click on this [runtime link](http://76.176.59.167) or type the following into your browser: 76.176.59.167.
 
