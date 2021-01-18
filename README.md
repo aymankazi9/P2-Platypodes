@@ -27,7 +27,7 @@
 # Delivery of Running Code and Big Ticket Items
 ### Week of 1/11 - 1/15
 
-## Frontend Aesthetics and Navigation [Link to Ticket](https://github.com/aymankazi9/P2-Platypodes/projects/1#card-53052242)
+## Frontend Aesthetics and Navigation: [Link to Ticket](https://github.com/aymankazi9/P2-Platypodes/projects/1#card-53052242)
 * A single theme was used throughout the website.
   * The theme was designed based off of the home page. 
   * The pages are easy to access through the Navbar at the top.
@@ -38,19 +38,19 @@
   * The tracker pages that we have also use a similar theme, which will also be used for the rest of trackers later on.
 * Simply click around the navbar of our [website](http://76.176.59.167/) to see our theme at use.
 
-## Covid-19 Statistics Database [Link to Ticket](https://github.com/aymankazi9/P2-Platypodes/projects/1#card-53055671)
+## Covid-19 Statistics Database: [Link to Ticket](https://github.com/aymankazi9/P2-Platypodes/projects/1#card-53055671)
 * Our team web-scraped data from informational Covid-19 wesites through the use of APIs.
   * The [scraped data](https://github.com/aymankazi9/P2-Platypodes/blob/main/stats.py#L5-L10) is stored in our [database](https://github.com/aymankazi9/P2-Platypodes/blob/main/platypodes.db). 
   * The data will later be [formatted](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/map.html#L18-L43) and [displayed](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/map.html#L77-L114) on our tracker pages and our map.
 * Visit this link to view the databse: [Database Creation](https://github.com/aymankazi9/P2-Platypodes/blob/main/stats.py) and [Database](https://github.com/aymankazi9/P2-Platypodes/blob/main/platypodes.db)
 
-## User-Interactive Map [Link to Ticket](https://github.com/aymankazi9/P2-Platypodes/projects/1#card-53057424)
+## User-Interactive Map: [Link to Ticket](https://github.com/aymankazi9/P2-Platypodes/projects/1#card-53057424)
 * This is a main feature for our website. Our map will display data from all of the states and will be available with a click of a button.
   * Coordinates of each vertex are placed within the HTML <area> [tags](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/map.html#L57-L59) to define the outline of the irregular shapes.
   * Scalable vector graphics (.svg) will later be used for the same conveniece on multiple devices. [Example](https://github.com/aymankazi9/P2-Platypodes/blob/main/static/us%20map.svg)
 * To see the map in action, visit the [COVID-19 Map](http://76.176.59.167/test/) on our website.
 
-## JavaScript and CSS Styling [Link to Ticket](https://github.com/aymankazi9/P2-Platypodes/projects/1#card-53055900)
+## JavaScript and CSS Styling: [Link to Ticket](https://github.com/aymankazi9/P2-Platypodes/projects/1#card-53055900)
 * Incorporating JS and CSS within our HTML files will enable our team to deliver information effectively. 
   * Our group used CSS to make a single theme for the website, 1) to reduce variance between our pages and make them look complete, and 2) simplify the code while expanding its use.
   * CSS were heavily used in the [News page](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/newspage.html#L15-L44). A new gradient background with thematic colors was used, as well as the color of the font. 
