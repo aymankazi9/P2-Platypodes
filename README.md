@@ -6,16 +6,16 @@
 * Learn more about our plan in the Project Plan below.
 
 ## Run Instructions
-* Paste this link into your browser window
+* Paste this link into your browser window or simply click on the link.
 * [Website](http://76.176.59.167)
 
 ## Git Instructions
 * You can learn about running this project on your IDE in this section:
 * Go to Code home and click on the green "Code" button.
 * Click on the clipboard next to the Git url. 
-* Open up your IntelliJ and click "Run from Version Control".
+* Open up your IDE and "Run from Version Control".
 * Press "Ctrl + V" or "⌘ + V" and press the blue "Clone" button at the bottom.
-* Once the project is opened up, be sure to change the interpreter to Python 3.8 or above. 
+* Once the project is opened up, be sure to change the interpreter to any version of Python 3. 
 * Run the project from wsgi.py and you're all set!
 
 ### Project Plan
@@ -26,33 +26,40 @@
 
 # Delivery of Running Code and Big Ticket Items
 ### Week of 1/11 - 1/15
-## Frontend Aesthetics and Navigation 
+
+## Frontend Aesthetics and Navigation: [Link to Ticket](https://github.com/aymankazi9/P2-Platypodes/projects/1#card-53052242)
 * A single theme was used throughout the website.
   * The theme was designed based off of the home page. 
   * The pages are easy to access through the Navbar at the top.
 * All of the informational and technical pages use the same theme.
-  * The Login and Sign Up pages have custom entry boxes and buttons to fit the theme.
-  * The Feedback form also has similar properties to the login/sign up pages.
-  * The FAQ page uses the same color scheme as the rest of the site.
+  * The [Login](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/loginpage.html#L97-L110) and [Sign Up](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/signup.html#L28-L62) pages have custom entry boxes and buttons to fit the theme.
+  * The [Feedback form](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/feedback.html#L14-L33) also has similar properties to the login/sign up pages.
+  * The [FAQ page](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/FAQ.html#L15-L47) uses the same color scheme as the rest of the site.
   * The tracker pages that we have also use a similar theme, which will also be used for the rest of trackers later on.
-* Simply click around the navbar to see our theme at use.
-## Covid-19 Statistics Database
+* Simply click around the navbar of our [website](http://76.176.59.167/) to see our theme at use.
+
+## Covid-19 Statistics Database: [Link to Ticket](https://github.com/aymankazi9/P2-Platypodes/projects/1#card-53055671)
 * Our team web-scraped data from informational Covid-19 wesites through the use of APIs.
-  * The scraped data is stored in our database. 
-  * The data will later be formatted and didplayed on our tracker pages and our map.
-* Visit this link to view the databse: [Databse Creation](https://github.com/aymankazi9/P2-Platypodes/blob/main/stats.py) and [Databse](https://github.com/aymankazi9/P2-Platypodes/blob/main/platypodes.db)
-## User-Interactive Map
+  * The [scraped data](https://github.com/aymankazi9/P2-Platypodes/blob/main/stats.py#L5-L10) is stored in our [database](https://github.com/aymankazi9/P2-Platypodes/blob/main/platypodes.db). 
+  * The data will later be [formatted](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/map.html#L18-L43) and [displayed](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/map.html#L77-L114) on our tracker pages and our map.
+* Visit this link to view the databse: [Database Creation](https://github.com/aymankazi9/P2-Platypodes/blob/main/stats.py) and [Database](https://github.com/aymankazi9/P2-Platypodes/blob/main/platypodes.db)
+
+## User-Interactive Map: [Link to Ticket](https://github.com/aymankazi9/P2-Platypodes/projects/1#card-53057424)
 * This is a main feature for our website. Our map will display data from all of the states and will be available with a click of a button.
-  * Coordinates of each vertex are placed within the HTML <area> tags to define the outline of the irregular shapes.
-  * Scalable vector graphics (.svg) will later be used for the same conveniece on multiple devices.
-* To see the map in action, just click on the "COVID-19 Map" item on our navigation bar. 
-## JavaScript and CSS Styling
+  * Coordinates of each vertex are placed within the HTML <area> [tags](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/map.html#L57-L59) to define the outline of the irregular shapes.
+  * Scalable vector graphics (.svg) will later be used for the same conveniece on multiple devices. [Example](https://github.com/aymankazi9/P2-Platypodes/blob/main/static/us%20map.svg)
+* To see the map in action, visit the [COVID-19 Map](http://76.176.59.167/test/) on our website.
+
+## JavaScript and CSS Styling: [Link to Ticket](https://github.com/aymankazi9/P2-Platypodes/projects/1#card-53055900)
 * Incorporating JS and CSS within our HTML files will enable our team to deliver information effectively. 
   * Our group used CSS to make a single theme for the website, 1) to reduce variance between our pages and make them look complete, and 2) simplify the code while expanding its use.
-  * CSS were heavily used in the News page. A new gradient background with thematic colors was used, as well as the color of the font. 
-  * JavaScript was used to make a timer to display the time of release.
-* To see our Styling and Javascript in use, click around the different pages of our wesite in the navbar. To view the Javascript at work, click on the "News" item on our navigation bar.
-### The raw code and more details for each of the completed ticket items can found detailed in the COMPLETED section on the [Scrum Board](https://padlet.com/akazi3211/wlmfpjwnbuuf6qsm).
+  * CSS were heavily used in the [News page](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/newspage.html#L15-L44). A new gradient background with thematic colors was used, as well as the color of the font. 
+  * JavaScript was used to make a [timer](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/newspage.html#L67-L96) to display the time of release.
+  * Example of CSS usage in our feedback form: [link](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/feedback.html#L14-L43)
+* To see our Styling and Javascript in use, click around the different pages of our [wesite](http://76.176.59.167) in the navbar. To view the Javascript at work, click on the ["News"](http://76.176.59.167/newspage/) item on our navigation bar.
+
+### More details for each of the completed ticket items can found detailed in the COMPLETED section on the [Scrum Board](https://github.com/aymankazi9/P2-Platypodes/projects/1#column-12515206).
+
 ### Click on this [runtime link](http://76.176.59.167) or type the following into your browser: 76.176.59.167.
 
 __________________
@@ -62,7 +69,7 @@ __________________
 ### Scrum Board
 * Big Ticket items are layed out here for the fundamentals of our project that are nonegotiable.
 * Some parts of the scrum board include minor bits that can be taken out if necessary. This is an easy way to track the progress and how far we are getting into the project. It can also be used to recognize lagging behind in our project and straighten up before the deadline.
-* [Scrum Board](https://padlet.com/akazi3211/wlmfpjwnbuuf6qsm)
+* [Scrum Board](https://github.com/aymankazi9/P2-Platypodes/projects/1?fullscreen=true)
 
 ### Project Log
 
