@@ -104,3 +104,6 @@ def feedback_form():
 def tosp_route():
     return render_template("tos&p.html", model=model.setup())
 
+@app.route('/deliverable/')
+def deliverable_route():
+    return render_template("deliverable.html", model=model.setup())
