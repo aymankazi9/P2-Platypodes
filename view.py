@@ -14,62 +14,62 @@ from flask import request
 @app.route('/')  # app routes to various html pages that we have assigned it to
 def home_route():
     stats.fetch_web_data()
-    return render_template("home.html", model=model.setup())
+    return render_template("/homesite/home.html", model=model.setup())
 
 
 @app.route('/tracker/')
 def tracker_route():
-    return render_template("tracker.html", model=model.setup())
+    return render_template("/homesite/tracker.html", model=model.setup())
 
 
 @app.route('/newspage/')
 def news_route():
-    return render_template("newspage.html", model=model.setup())
+    return render_template("/homesite/newspage.html", model=model.setup())
 
 
 @app.route('/aboutus/')
 def about_route():
-    return render_template("aboutus.html", model=model.setup())
+    return render_template("/homesite/aboutus.html", model=model.setup())
 
 
 @app.route('/loginpage/')
 def login_route():
-    return render_template("loginpage.html", model=model.setup())
+    return render_template("/homesite/loginpage.html", model=model.setup())
 
 
 @app.route('/signuppage/')
 def signup_route():
-    return render_template("signup.html", model=model.setup())
+    return render_template("/homesite/signup.html", model=model.setup())
 
 
 @app.route('/feedback/')
 def fb_route():
-    return render_template("feedback.html", model=model.setup())
+    return render_template("/homesite/feedback.html", model=model.setup())
 
 
 @app.route('/FAQ/')
 def faq_route():
-    return render_template("FAQ.html", model=model.setup())
+    return render_template("/homesite/FAQ.html", model=model.setup())
 
 
 @app.route('/california/')
 def ca_route():
-    return render_template("ca.html", model=model.setup())
+    return render_template("/trackers/ca.html", model=model.setup())
 
 
 @app.route('/texas/')
 def tx_route():
-    return render_template("tx.html", model=model.setup())
+    return render_template("/trackers/tx.html", model=model.setup())
 
 
 @app.route('/florida/')
 def fl_route():
-    return render_template("fl.html", model=model.setup())
+    return render_template("/trackers/fl.html", model=model.setup())
 
 
 @app.route('/newyork/')
 def ny_route():
-    return render_template("ny.html", model=model.setup())
+    return render_template("/trackers/ny.html", model=model.setup())
 
 
 @app.route('/map/')
@@ -84,7 +84,7 @@ def map_route():
     # for row in data:
     # print(row)
 
-    return render_template("map.html", rows=c.fetchall(), model=model.setup())
+    return render_template("/homesite/map.html", rows=c.fetchall(), model=model.setup())
 
 
 @app.route('/feedback_form', methods=['POST'])
@@ -102,18 +102,18 @@ def feedback_form():
     print(service)
     print(opinion)
     '''
-    return render_template("feedback.html", model=model.setup())
+    return render_template("/homesite/feedback.html", model=model.setup())
 
 
 @app.route('/tos&p/')
 def tosp_route():
-    return render_template("tos&p.html", model=model.setup())
+    return render_template("/misc/tos&p.html", model=model.setup())
 
 
 @app.route('/home2/')
 def home2_route():
-    return render_template("home2.html", model=model.setup())
+    return render_template("/altdimension/home2.html", model=model.setup())
 
 @app.route('/TPTReflections/')
 def tpt_route():
-    return render_template("tpt.html", model=model.setup())
+    return render_template("/altdimension/tpt.html", model=model.setup())
