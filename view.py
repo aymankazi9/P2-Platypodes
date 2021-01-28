@@ -113,3 +113,7 @@ def tosp_route():
 @app.route('/home2/')
 def home2_route():
     return render_template("home2.html", model=model.setup())
+
+@app.route('/TPTReflections/')
+def tpt_route():
+    return render_template("tpt.html", model=model.setup())
