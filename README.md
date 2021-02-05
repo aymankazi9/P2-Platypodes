@@ -25,6 +25,44 @@
 
 ------------------
 
+# Delivery of Easter Egg and Big Ticket Items
+### Week of 2/1 - 2/5
+
+## Easter Egg Landing Page: [Link to Ticket](https://github.com/aymankazi9/P2-Platypodes/projects/1#card-53688061)
+* Picked new theme colors for the Easter Egg part of our website (Alternate Dimension)
+  * Theme applied with [inline CSS](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/altdimension/home2.html#L8-L13) on the landing page.
+  * Class as [container-fluid](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/altdimension/home2.html#L12) used to create landing image.
+* To see the landing page, visit the [COVID-19 Map](http://76.176.59.167/home2/) on our website.
+
+## Easter Egg Aesthetics and Navigation: [Link to Ticket 1](https://github.com/aymankazi9/P2-Platypodes/projects/1#card-53688218) and [Link to Ticket 2](https://github.com/aymankazi9/P2-Platypodes/projects/1#card-54295074)
+* A new theme was developed (revolving around CB Theme) for the Easter Egg part of our website. 
+  * New navbar designed with new templates. All new templates are organized under a new [basealt.html](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/basealt.html#L16-L43)
+* A new template was added with frontend theme in mind. It uses CSS to add another layer of user interactivity.
+  * Card style layout was used to show all the developers of the project and cards flip over to show the descriptions of "Who we are as Computer Scientists" 
+  * Linear gradients were used throughout this template in order to create an aesthet 
+  * The tracker pages that we have also use a similar theme, which will also be used for the rest of trackers later on.
+* Simply click around the navbar of our [Alternate Dimension](http://76.176.59.167/home2/) to see our theme at use.
+
+#### JavaScript and CSS Styling (Cookies): [Link to Ticket](https://github.com/aymankazi9/P2-Platypodes/projects/1#card-53055900)
+* Incorporating JS and CSS within our HTML files will enable our team to deliver information effectively. 
+   Our group used CSS to make a single theme for the website, 1) to reduce variance between our pages and make them look complete, and 2) simplify the code while expanding its usse.
+  * CSS were heavily used in the [News page](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/newspage.html#L15-L44). A new gradient background with thematic colors was used, as well as the color of the font. 
+  * JavaScript was used to make a [timer](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/newspage.html#L67-L96) to display the time of release.
+  * Example of CSS usage in our feedback form: [link](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/feedback.html#L14-L43)
+* To see our Styling and Javascript in use, click around the different pages of our [wesite](http://76.176.59.167) in the navbar. To view the Javascript at work, click on the ["News"](http://76.176.59.167/newspage/) item on our navigation bar.
+
+## Sign-Up: [Link to Ticket](https://github.com/aymankazi9/P2-Platypodes/projects/1#card-53055671)
+* Our team web-scraped data from informational Covid-19 wesites through the use of APIs.
+  * The [scraped data](https://github.com/aymankazi9/P2-Platypodes/blob/main/stats.py#L5-L10) is stored in our [database](https://github.com/aymankazi9/P2-Platypodes/blob/main/platypodes.db). 
+  * The data will later be [formatted](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/map.html#L18-L43) and [displayed](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/map.html#L77-L114) on our tracker pages and our map.
+* Visit this link to view the databse: [Database Creation](https://github.com/aymankazi9/P2-Platypodes/blob/main/stats.py) and [Database](https://github.com/aymankazi9/P2-Platypodes/blob/main/platypodes.db)
+
+### More details for each of the completed ticket items can found detailed in the COMPLETED section on the [Scrum Board](https://github.com/aymankazi9/P2-Platypodes/projects/1#column-12515206).
+
+### Click on this [runtime link](http://76.176.59.167) or type the following into your browser: 76.176.59.167.
+
+------------------
+
 # Delivery of Running Code and Big Ticket Items
 ### Week of 1/11 - 1/15
 
