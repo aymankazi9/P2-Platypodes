@@ -8,6 +8,7 @@ import sqlite3 as sl3
 app = Flask(__name__)
 import stats
 import storefb
+import storesignup
 from flask import request
 
 
@@ -103,6 +104,22 @@ def feedback_form():
     print(opinion)
     '''
     return render_template("/homesite/feedback.html", model=model.setup())
+
+@app.route('/sign_up', methods=['POST'])
+def sign_up():
+    mailadd = request.form['email']
+    psswrd = request.form['psw']
+    pssrep = request.form['psw-repeat']
+
+    storesignup.insertsignup(mailadd, psswrd, pssrep)
+    '''
+    print (fname)
+    print (lname)
+    print (mailid)
+    print(service)
+    print(opinion)
+    '''
+    return render_template("/homesite/signup.html", model=model.setup())
 
 
 @app.route('/tos&p/')
