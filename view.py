@@ -117,3 +117,7 @@ def home2_route():
 @app.route('/TPTReflections/')
 def tpt_route():
     return render_template("/altdimension/tpt.html", model=model.setup())
+
+@app.route('/CSPReflections/')
+def csp_route():
+    return render_template("/altdimension/cspreflections.html", model=model.setup())
