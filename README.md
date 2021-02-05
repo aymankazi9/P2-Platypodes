@@ -54,10 +54,9 @@
 * To see our Styling and Javascript in use, a banner will pop up as soon as you enter our [wesite](http://76.176.59.167) above the navbar. To view the new theme, click on the ["hidden portal"](http://76.176.59.167/home2/). To see the other new animations click on ["Who We Are"](http://76.176.59.167/CSPReflections/) in the Easter Egg.
 
 ## Sign-Up: [Link to Ticket](https://github.com/aymankazi9/P2-Platypodes/projects/1#card-53055671)
-* Our team web-scraped data from informational Covid-19 wesites through the use of APIs.
-  * The [scraped data](https://github.com/aymankazi9/P2-Platypodes/blob/main/stats.py#L5-L10) is stored in our [database](https://github.com/aymankazi9/P2-Platypodes/blob/main/platypodes.db). 
-  * The data will later be [formatted](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/map.html#L18-L43) and [displayed](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/map.html#L77-L114) on our tracker pages and our map.
-* Visit this link to view the database: [Database Creation](https://github.com/aymankazi9/P2-Platypodes/blob/main/stats.py) and [Database](https://github.com/aymankazi9/P2-Platypodes/blob/main/platypodes.db)
+* CSS and HTML were used to create a sign up form for users to input their personal information.
+* User inputs were then placed into table and stored in database.
+* A connection between the sign up html file and python file was established in view.py by defining action and setting parameters of function from store.py as user input fields.
 
 ### More details for each of the completed ticket items can found detailed in the COMPLETED section on the [Scrum Board](https://github.com/aymankazi9/P2-Platypodes/projects/1#column-12515206).
 
