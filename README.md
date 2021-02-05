@@ -17,7 +17,7 @@
 * Open up your IDE and "Run from Version Control".
 * Press "Ctrl + V" or "⌘ + V" and press the blue "Clone" button at the bottom.
 * Once the project is opened up, be sure to change the interpreter to any version of Python 3. 
-* Run the project from wsgi.py and you're all set!
+* Run the project from wsgi.py, and you're all set!
 
 ### Project Plan
 * Here is where we started, we made a plan of action and hope to follow it closely and make this a COVID-19 tracker to be recokened with.
@@ -32,16 +32,15 @@
 * Picked new theme colors for the Easter Egg part of our website (Alternate Dimension)
   * Theme applied with [inline CSS](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/altdimension/home2.html#L8-L13) on the landing page.
   * Class as [container-fluid](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/altdimension/home2.html#L12) used to create landing image.
-* To see the landing page, visit the [COVID-19 Map](http://76.176.59.167/home2/) on our website.
+* To see the landing page, visit this [page](http://76.176.59.167/home2/) on our website.
 
 ## Easter Egg Aesthetics and Navigation: [Link to Ticket 1](https://github.com/aymankazi9/P2-Platypodes/projects/1#card-53688218) and [Link to Ticket 2](https://github.com/aymankazi9/P2-Platypodes/projects/1#card-54295074)
 * A new theme was developed (revolving around CB Theme) for the Easter Egg part of our website. 
-  * New navbar designed with new templates. All new templates are organized under a new [basealt.html](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/basealt.html#L16-L43)
-* A new template was added with frontend theme in mind. It uses CSS to add another layer of user interactivity.
+  * New navbar designed with [new templates](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/altdimension/cspreflections.html). All new templates are organized under a new [basealt.html](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/basealt.html#L16-L43)
+* A new template was added with frontend theme in mind. It uses [CSS](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/altdimension/cspreflections.html#L10-L207) to add another layer of user interactivity.
   * Card style layout was used to show all the developers of the project and cards flip over to show the descriptions of "Who we are as Computer Scientists" 
-  * Linear gradients were used throughout this template in order to create an aesthet 
-  * The tracker pages that we have also use a similar theme, which will also be used for the rest of trackers later on.
-* Simply click around the navbar of our [Alternate Dimension](http://76.176.59.167/home2/) to see our theme at use.
+  * [Linear gradients](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/altdimension/cspreflections.html#L83-L88) were used throughout this template in order to create an amount of variation to create an aesthetic website. 
+* Simply click on ["Who We Are"](http://76.176.59.167/CSPReflections/) to see our Reflections as Computer Scientists in the stylized layout.
 
 #### JavaScript and CSS Styling (Cookies): [Link to Ticket](https://github.com/aymankazi9/P2-Platypodes/projects/1#card-53055900)
 * Incorporating JS and CSS within our HTML files will enable our team to deliver information effectively. 
@@ -55,7 +54,7 @@
 * Our team web-scraped data from informational Covid-19 wesites through the use of APIs.
   * The [scraped data](https://github.com/aymankazi9/P2-Platypodes/blob/main/stats.py#L5-L10) is stored in our [database](https://github.com/aymankazi9/P2-Platypodes/blob/main/platypodes.db). 
   * The data will later be [formatted](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/map.html#L18-L43) and [displayed](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/map.html#L77-L114) on our tracker pages and our map.
-* Visit this link to view the databse: [Database Creation](https://github.com/aymankazi9/P2-Platypodes/blob/main/stats.py) and [Database](https://github.com/aymankazi9/P2-Platypodes/blob/main/platypodes.db)
+* Visit this link to view the database: [Database Creation](https://github.com/aymankazi9/P2-Platypodes/blob/main/stats.py) and [Database](https://github.com/aymankazi9/P2-Platypodes/blob/main/platypodes.db)
 
 ### More details for each of the completed ticket items can found detailed in the COMPLETED section on the [Scrum Board](https://github.com/aymankazi9/P2-Platypodes/projects/1#column-12515206).
 
@@ -70,7 +69,7 @@
 * A single theme was used throughout the website.
   * The theme was designed based off of the home page. 
   * The pages are easy to access through the Navbar at the top.
-* All of the informational and technical pages use the same theme.
+* All the informational and technical pages use the same theme.
   * The [Login](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/loginpage.html#L97-L110) and [Sign Up](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/signup.html#L28-L62) pages have custom entry boxes and buttons to fit the theme.
   * The [Feedback form](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/feedback.html#L14-L33) also has similar properties to the login/sign up pages.
   * The [FAQ page](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/FAQ.html#L15-L47) uses the same color scheme as the rest of the site.
