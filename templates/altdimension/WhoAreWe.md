@@ -8,7 +8,21 @@ learnings and demonstrate their competencies.
 --------
 
 ## Ayman Kazi (Scrum Master)
-* 
+* To start off, as a developing scrum master, I try to apply the AGILE software development cycle within my team. I also understand the Project-based Learning approach and how it benefits students in their leanrning.
+* I am able to develop web frontends using HTML, CSS, and JavaScript, and Bootstrap.
+* I am a confident in my Python coding skills and can use them to develop web backends.
+* I can also build Jinja templates and use Jinja variables to exchange data between the frontend and the backend.
+* I have a basic understanding of JavaScript from past experience and can use it work with the HTML Document Object Model.
+* I am also able to do some backend work with SQL databses and configuring Flask framework.
+    * I know some database concpets such as establishing tables to store information for later use. 
+    * I am familiar with usign REST APIs to scrape data from a source.
+* I am currently learning concepts of curating data, searching data, and starting to become competent in concepts like Data Analytics.
+* I have worked with Internet Service Provider DNS records to portforward.
+    * Still workign on setiing up my own domain.
+* I am able to understand Raspberri Pi terminal commands and use them to set up services like nGinx and Gunicorn.
+    * I can portforward and deploy our website on a RPi.
+    * I am also able to setup a virtual environment.
+* I know the importance of documenting and putting comments on code the to help other developers.
 
 --------
 
@@ -46,15 +60,7 @@ Raspberry Pi during porting of our website on the internet.
 
 ## Karam Alshaikh (Frontend Developer)
 * My work is based around frontend aesthetics like color and page formatting, specifically with using inline and internal CSS.
-
 * I am also familar with the setting up with some of the backend stuff like the app.routes. 
-
 * Along with my scrum team, I utilize scrum boards to better navigate who and what are the people doing for a certain time period.
-
-* I am compotent in building a Python/Flask web server.
-
-* I have an understanding of jinja and when to use certain variables related to it.
-
-* I have basic knowledge of Python and know how to utilize components like a list, dictionaries, classes, etc.
 
 --------
