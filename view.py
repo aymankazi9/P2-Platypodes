@@ -138,3 +138,7 @@ def tpt_route():
 @app.route('/CSPReflections/')
 def csp_route():
     return render_template("/altdimension/cspreflections.html", model=model.setup())
+
+@app.route('/cookies/')
+def cookie_route():
+    return render_template("/misc/cookies.html", model=model.setup())

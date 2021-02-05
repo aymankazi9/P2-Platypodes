@@ -10,6 +10,10 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         {% block head %}
         {% endblock %}
+        <!-- Cookies consent banner -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.css"/>
+        <script src="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.js" defer></script>
+        <script>window.addEventListener("load", function(){window.wpcc.init({"border":"thin","colors":{"popup":{"background":"#1b4b45","text":"#ffffff","border":"#b4eae4"},"button":{"background":"#b4eae4","text":"#000000"}},"position":"top","pushdown":true,"padding":"small","transparency":"25","fontsize":"large","corners":"small","content":{"message":"This website uses cookies to ensure you get the best experience on our website. ","link":"Learn more.","href":"/misc/cookies.html"}})});</script>
     </head>
 
 <body>
@@ -30,7 +34,7 @@
                 <a class="nav-link" href= "/feedback/">Feedback</a>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Trackers <!-- Dropdown menu that has 4 different tracker templates linked tt -->
+                        Hotspots <!-- Dropdown menu that has 4 different tracker templates linked tt -->
                     </a>
                     <div class="dropdown-menu" style="position: absolute; z-index: 2;">
                         <a class="dropdown-item" href="/california/">California</a>
