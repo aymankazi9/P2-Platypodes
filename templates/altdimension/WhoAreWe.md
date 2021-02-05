@@ -54,7 +54,15 @@ Raspberry Pi during porting of our website on the internet.
 --------
 
 ## Isai Rajaraman (Backend Developer)
-* 
+* I am now better at being able to organize ideas and plan what needs to get done due to our increased use of scrum boards. 
+* I am more fluent in Python and understand the various parts such as dictionaries, loops, variables, functions,etc.
+* I am proficient in using Flask because of the knowledge gained from the Collegeboard Project and last trimester.
+* I have gained knowledge in how databases work and how to store information into table and insert them into databases.
+* I can use an API and know how to web scrape information from external sources.
+* I know how establish a connection between HTML and Pyton files.
+  * I can display web scraped information in tables on a designated HTML page.
+  * I can take user submissions from an HTML page and connect it to Python.
+* I understand how to use POST in order to display information.
 
 --------
 
