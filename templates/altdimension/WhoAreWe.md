@@ -45,6 +45,8 @@ Raspberry Pi during porting of our website on the internet.
 --------
 
 ## Karam Alshaikh (Frontend Developer)
-* 
+* My work is based around frontend aesthetics like color and page formatting, specifically with using inline and internal CSS.
+* I am also familar with the setting up with some of the backend stuff like the app.routes. 
+* Along with my scrum team, I utilize scrum boards to better navigate who and what are the people doing for a certain time period.
 
 --------
