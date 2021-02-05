@@ -54,9 +54,9 @@
 * To see our Styling and Javascript in use, a banner will pop up as soon as you enter our [wesite](http://76.176.59.167) above the navbar. To view the new theme, click on the ["hidden portal"](http://76.176.59.167/home2/). To see the other new animations click on ["Who We Are"](http://76.176.59.167/CSPReflections/) in the Easter Egg.
 
 ## Sign-Up: [Link to Ticket](https://github.com/aymankazi9/P2-Platypodes/projects/1#card-53055671)
-* CSS and HTML were used to create a sign up form for users to input their personal information.
-* User inputs were then placed into table and stored in database.
-* A connection between the sign up html file and python file was established in view.py by defining action and setting parameters of function from store.py as user input fields.
+* CSS and HTML were used to create a [sign up](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/homesite/signup.html) form for users to input their personal information.
+* User inputs were then placed into [table and stored in database](https://github.com/aymankazi9/P2-Platypodes/blob/main/storesignup.py).
+* A connection between the sign up html file and python file was established in [view.py](https://github.com/aymankazi9/P2-Platypodes/blob/main/view.py) by defining action and setting parameters of function from store.py as user input fields.
 
 ### More details for each of the completed ticket items can found detailed in the COMPLETED section on the [Scrum Board](https://github.com/aymankazi9/P2-Platypodes/projects/1#column-12515206).
 
