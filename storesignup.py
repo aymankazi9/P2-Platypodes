@@ -43,6 +43,7 @@ def logincheck ( mailadd, psswrd):
 
     sql = 'SELECT password FROM SUINFO WHERE mail_address=?'
 
+
     c.execute(sql, paramlst)
     stpw= c.fetchone()[0]
     if psswrd==stpw:
