@@ -42,19 +42,21 @@
   * [Linear gradients](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/altdimension/cspreflections.html#L83-L88) were used throughout this template in order to create an amount of variation to create an aesthetic website. 
 * Simply click on ["Who We Are"](http://76.176.59.167/CSPReflections/) to see our Reflections as Computer Scientists in the stylized layout.
 
-#### JavaScript and CSS Styling (Cookies): [Link to Ticket](https://github.com/aymankazi9/P2-Platypodes/projects/1#card-53055900)
-* Incorporating JS and CSS within our HTML files will enable our team to deliver information effectively. 
-   Our group used CSS to make a single theme for the website, 1) to reduce variance between our pages and make them look complete, and 2) simplify the code while expanding its usse.
-  * CSS were heavily used in the [News page](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/newspage.html#L15-L44). A new gradient background with thematic colors was used, as well as the color of the font. 
-  * JavaScript was used to make a [timer](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/newspage.html#L67-L96) to display the time of release.
-  * Example of CSS usage in our feedback form: [link](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/feedback.html#L14-L43)
-* To see our Styling and Javascript in use, click around the different pages of our [wesite](http://76.176.59.167) in the navbar. To view the Javascript at work, click on the ["News"](http://76.176.59.167/newspage/) item on our navigation bar.
+#### JavaScript and CSS Styling (Cookies): [Link to Ticket](https://github.com/aymankazi9/P2-Platypodes/projects/1#card-54295074)
+* Having an appealing website is necessary in interacting with the user. Various JS and CSS elements were used to display our new information without losing the interest of the user. 
+* The team used a completely different [theme](https://github.com/aymankazi9/P2-Platypodes/blob/c4f8939fdc72581684b5af0add6bdb8ee7aa17ad/templates/basealt.html#L16-L37) to make the Easter Egg stand out. 
+  * Based off of College Board color scheme; a fitting theme since the Easter Egg will contain our AP Prep material.
+  * CSS were heavily used in the ["Who Are We" page](https://github.com/aymankazi9/P2-Platypodes/blob/c4f8939fdc72581684b5af0add6bdb8ee7aa17ad/templates/altdimension/cspreflections.html#L9-L208). A new gradient background with thematic colors was used, as well as the color of the font. 
+* A new Cookie feature was started:
+  * JavaScript and some CSS was used to make a [cookie consent banner](https://github.com/aymankazi9/P2-Platypodes/blob/c4f8939fdc72581684b5af0add6bdb8ee7aa17ad/templates/base.html#L13-L16) which gave the user an option to view the [policy](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/misc/cookies.html) as well as a button to make the banner disappear.
+* A Terms of Service and Privacy page was created to notify our users: [link](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/misc/tos%26p.html)
+  * A [CSS gradient](https://github.com/aymankazi9/P2-Platypodes/blob/c4f8939fdc72581684b5af0add6bdb8ee7aa17ad/templates/misc/tos%26p.html#L9-L20) was used to display the text, and match with the mian theme of the website. 
+* To see our Styling and Javascript in use, a banner will pop up as soon as you enter our [wesite](http://76.176.59.167) above the navbar. To view the new theme, click on the ["hidden portal"](http://76.176.59.167/home2/). To see the other new animations click on ["Who We Are"](http://76.176.59.167/CSPReflections/) in the Easter Egg.
 
 ## Sign-Up: [Link to Ticket](https://github.com/aymankazi9/P2-Platypodes/projects/1#card-53055671)
-* Our team web-scraped data from informational Covid-19 wesites through the use of APIs.
-  * The [scraped data](https://github.com/aymankazi9/P2-Platypodes/blob/main/stats.py#L5-L10) is stored in our [database](https://github.com/aymankazi9/P2-Platypodes/blob/main/platypodes.db). 
-  * The data will later be [formatted](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/map.html#L18-L43) and [displayed](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/map.html#L77-L114) on our tracker pages and our map.
-* Visit this link to view the database: [Database Creation](https://github.com/aymankazi9/P2-Platypodes/blob/main/stats.py) and [Database](https://github.com/aymankazi9/P2-Platypodes/blob/main/platypodes.db)
+* CSS and HTML were used to create a [sign up](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/homesite/signup.html) form for users to input their personal information.
+* User inputs were then placed into [table and stored in database](https://github.com/aymankazi9/P2-Platypodes/blob/main/storesignup.py).
+* A connection between the sign up html file and python file was established in [view.py](https://github.com/aymankazi9/P2-Platypodes/blob/main/view.py) by defining action and setting parameters of function from store.py as user input fields.
 
 ### More details for each of the completed ticket items can found detailed in the COMPLETED section on the [Scrum Board](https://github.com/aymankazi9/P2-Platypodes/projects/1#column-12515206).
 
