@@ -33,5 +33,20 @@ def insertsignup (mailadd,psswrd,pssrep):
     for row in data:
         print(row)
 
+    return
 
+def logincheck ( mailadd, psswrd):
+    paramlst=[]
+    paramlst.append(mailadd)
+    con = sl.connect('platypodes.db')
+    c = con.cursor()
+
+    sql = 'SELECT password FROM SUINFO WHERE mail_address=?'
+
+    c.execute(sql, paramlst)
+    stpw= c.fetchone()[0]
+    if psswrd==stpw:
+        return("yes")
+    else:
+        return("no")
     return

@@ -44,8 +44,7 @@ def fetch_web_data():
         for t in T.iterchildren(): # iteration through the columns of the record - t will hold the actual column data not the column counter
 
             data= (t.text_content().replace(',','')).strip() # replacing commas(,) with nothing and Removing newline character (enter) and any blank space before and after the data
-            #print(data)
-            #print ("================================")
+
             if i < 13: # excluding last 2 columns (source & Projection)
 
                 if j>0: # J is outer loop, and excluding the 0th record which is column headers from processing. But it will be added to record tuple without processing at the end of this "if" construct

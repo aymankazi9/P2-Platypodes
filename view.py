@@ -9,6 +9,7 @@ app = Flask(__name__)
 import stats
 import storefb
 import storesignup
+#import storelogin
 from flask import request
 
 
@@ -103,6 +104,7 @@ def feedback_form():
     print(service)
     print(opinion)
     '''
+
     return render_template("/homesite/feedback.html", model=model.setup())
 
 @app.route('/sign_up', methods=['POST'])
@@ -120,6 +122,20 @@ def sign_up():
     print(opinion)
     '''
     return render_template("/homesite/signup.html", model=model.setup())
+
+
+@app.route('/login', methods=['POST'])
+def login():
+    mailadd = request.form['email']
+    psswrd = request.form['psw']
+
+    print ('Login Page Username:', mailadd)
+    print ('Login Page Password:', psswrd)
+    result= storesignup.logincheck(mailadd,psswrd)
+    if result=="yes":
+        return render_template("/homesite/home.html", model=model.setup())
+    else:
+        return render_template("/homesite/loginpage.html", msg='Invalid Username or Password', model=model.setup())
 
 
 @app.route('/tos&p/')
