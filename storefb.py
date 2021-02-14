@@ -1,24 +1,23 @@
-
 import sqlite3 as sl
 
 
-def insertfeedback (fname,lname,mailid,service, opinion):
-    fdlist=[fname,lname,mailid,service, opinion]
-    print (fdlist)
+def insertfeedback(fname, lname, mailid, service, opinion):
+    fdlist = [fname, lname, mailid, service, opinion]
+    print(fdlist)
 
     con = sl.connect('platypodes.db')
     c = con.cursor()
 
-    #get the count of tables with the name
+    # get the count of tables with the name
     c.execute(''' SELECT count(name) FROM sqlite_master WHERE type='table' AND name='FDINFO' ''')
 
-    #if the count is 1, then table exists
-    if c.fetchone()[0]==1 :
+    # if the count is 1, then table exists
+    if c.fetchone()[0] == 1:
         print('Table exists.')
-    else :
+    else:
         print('Table does not exist.')
 
-        with con:   #table with all the different columns that will be used, and type of data
+        with con:  # table with all the different columns that will be used, and type of data
             con.execute("""               
                     CREATE TABLE FDINFO (
                         first_name TEXT,
@@ -35,7 +34,6 @@ def insertfeedback (fname,lname,mailid,service, opinion):
         data = con.execute("SELECT * FROM FDINFO")
     for row in data:
         print(row)
-
 
     return
 

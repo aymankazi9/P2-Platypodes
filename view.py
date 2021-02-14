@@ -9,7 +9,7 @@ app = Flask(__name__)
 import stats
 import storefb
 import storesignup
-#import storelogin
+# import storelogin
 from flask import request
 
 
@@ -107,6 +107,7 @@ def feedback_form():
 
     return render_template("/misc/confirmation.html", model=model.setup())
 
+
 @app.route('/sign_up', methods=['POST'])
 def sign_up():
     mailadd = request.form['email']
@@ -129,10 +130,10 @@ def login():
     mailadd = request.form['email']
     psswrd = request.form['psw']
 
-    print ('Login Page Username:', mailadd)
-    print ('Login Page Password:', psswrd)
-    result= storesignup.logincheck(mailadd,psswrd)
-    if result=="yes":
+    print('Login Page Username:', mailadd)
+    print('Login Page Password:', psswrd)
+    result = storesignup.logincheck(mailadd, psswrd)
+    if result == "yes":
         return render_template("/homesite/home.html", model=model.setup())
     else:
         return render_template("/homesite/loginpage.html", msg='Invalid Username or Password', model=model.setup())
@@ -147,17 +148,21 @@ def tosp_route():
 def home2_route():
     return render_template("/altdimension/home2.html", model=model.setup())
 
+
 @app.route('/TPTReflections/')
 def tpt_route():
     return render_template("/altdimension/tpt.html", model=model.setup())
+
 
 @app.route('/CSPReflections/')
 def csp_route():
     return render_template("/altdimension/cspreflections.html", model=model.setup())
 
+
 @app.route('/cookies/')
 def cookie_route():
     return render_template("/misc/cookies.html", model=model.setup())
+
 
 @app.route('/confirmation/')
 def confirmation_route():
