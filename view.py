@@ -105,7 +105,7 @@ def feedback_form():
     print(opinion)
     '''
 
-    return render_template("/homesite/feedback.html", model=model.setup())
+    return render_template("/misc/confirmation.html", model=model.setup())
 
 @app.route('/sign_up', methods=['POST'])
 def sign_up():
@@ -158,3 +158,7 @@ def csp_route():
 @app.route('/cookies/')
 def cookie_route():
     return render_template("/misc/cookies.html", model=model.setup())
+
+@app.route('/confirmation/')
+def confirmation_route():
+    return render_template("/misc/confirmation.html", model=model.setup())
