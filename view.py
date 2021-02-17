@@ -39,11 +39,6 @@ def login_route():
     return render_template("/homesite/loginpage.html", model=model.setup())
 
 
-@app.route('/signuppage/')
-def signup_route():
-    return render_template("/homesite/signup.html", model=model.setup())
-
-
 @app.route('/feedback/')
 def fb_route():
     return render_template("/homesite/feedback.html", model=model.setup())
@@ -122,7 +117,7 @@ def sign_up():
     print(service)
     print(opinion)
     '''
-    return render_template("/homesite/signup.html", model=model.setup())
+    return render_template("/homesite/loginpage.html", model=model.setup())
 
 
 @app.route('/login', methods=['POST'])
