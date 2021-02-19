@@ -48,6 +48,8 @@
 ## Login/Signup/Feedback Redesign: [Pragadeesh's Ticket](https://github.com/aymankazi9/P2-Platypodes/projects/1#card-53688163)
 * Began on the aesthetics redesign ticket; worked on a [new theme](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/homesite/loginpage.html#L19-L43) for the website and implemented that for Login, Signup, 
 and Feedback
+* Created more interactive [Login and Signup](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/homesite/loginpage.html#L45-L131) with flipping cards using CSS and JS
+* Created new [Feedback form](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/homesite/feedback.html#L12-L28) completion [confirmation](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/misc/confirmation.html#L10-L21); stays consistent with new theme
 
 ## Crossover Reflections
 * Their recommendations
@@ -66,9 +68,6 @@ and Feedback
 | Procedures     | * fetch_web_data and other procedures used and defined as functions with algorithms inside to orient the data, put data into the databse, and pull data into html |
 | Algorithms     | * Use iterations, try/excepts, and if/else algorithms to process data in lists                         |
 | Outputs        | * Output for web scraping presented in a table form in frontend html files and stylized with CSS       |
-
-* Created more interactive [Login and Signup](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/homesite/loginpage.html#L45-L131) with flipping cards using CSS and JS
-* Created new [Feedback form](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/homesite/feedback.html#L12-L28) completion [confirmation](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/misc/confirmation.html#L10-L21); stays consistent with new theme
 
 ### More details for each of the completed ticket items can be found detailed on the [Scrum Board](https://github.com/aymankazi9/P2-Platypodes/projects/1#column-12515206).
 
