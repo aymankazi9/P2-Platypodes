@@ -44,11 +44,6 @@ def fb_route():
     return render_template("/homesite/feedback.html", model=model.setup())
 
 
-@app.route('/FAQ/')
-def faq_route():
-    return render_template("/homesite/FAQ.html", model=model.setup())
-
-
 @app.route('/california/')
 def ca_route():
     return render_template("/trackers/ca.html", model=model.setup())
@@ -162,3 +157,28 @@ def cookie_route():
 @app.route('/confirmation/')
 def confirmation_route():
     return render_template("/misc/confirmation.html", model=model.setup())
+
+
+@app.route('/info/')
+def info_route():
+    return render_template("/homesite/information.html", model=model.setup())
+
+
+@app.route('/FAQ/')
+def faq_route():
+    return render_template("/homesite/FAQ.html", model=model.setup())
+
+
+@app.route('/prevention/')
+def info_route():
+    return render_template("/homesite/prevention.html", model=model.setup())
+
+
+@app.route('/trends/')
+def trends_route():
+    return render_template("/homesite/trends.html", model=model.setup())
+
+
+@app.route('/learnmore/')
+def learn_route():
+    return render_template("/homesite/learn.html", model=model.setup())
