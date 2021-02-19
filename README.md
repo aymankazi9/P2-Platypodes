@@ -29,7 +29,8 @@
 ### Week of 2/15 - 2/19
 
 ## Homesite Navigation Redesign: [Karam's Ticket](https://github.com/aymankazi9/P2-Platypodes/projects/1#card-53052644)
-* 
+* I was prototyping a nav bar and tried creating a cleaner nav bar that fits our theme better
+* [here](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/homesite/information.html#L11-L132) is the link of the code and I plan to expand this to the rest of the website.
 
 ## Login and Signup Backend: [Isai's Ticket](https://github.com/aymankazi9/P2-Platypodes/projects/1#card-53687851)
 * Began on signup page and worked on [getting user input in sign up page into database as username and password](https://github.com/aymankazi9/P2-Platypodes/blob/main/storesignup.py)
