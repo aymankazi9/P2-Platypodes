@@ -38,11 +38,11 @@
 * 
 
 ## Login/Signup/Feedback Redesign: [Pragadeesh's Ticket](https://github.com/aymankazi9/P2-Platypodes/projects/1#card-53688163)
-* Began on the aesthetics redesign ticket; worked on a new theme for the website and implemented that for [Login](), Signup, 
+* Began on the aesthetics redesign ticket; worked on a [new theme](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/homesite/loginpage.html#L19-L43) for the website and implemented that for Login, Signup, 
 and Feedback
   
-* Created more interactive Login and Signup with flipping cards using CSS and JS
-* Created new Feedback form completion confirmation; stays consistent with new theme
+* Created more interactive [Login and Signup](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/homesite/loginpage.html#L45-L131) with flipping cards using CSS and JS
+* Created new [Feedback form](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/homesite/feedback.html#L12-L28) completion [confirmation](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/misc/confirmation.html#L10-L21); stays consistent with new theme
 
 ### More details for each of the completed ticket items can be found detailed on the [Scrum Board](https://github.com/aymankazi9/P2-Platypodes/projects/1#column-12515206).
 
