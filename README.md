@@ -10,8 +10,6 @@
 * [Website](http://76.176.59.167)
 * [Portal to an Alternate Dimension?](http://76.176.59.167/home2/)
 
---------
-
 ## Git Instructions
 * You can learn about running this project on your IDE in this section:
 * Go to Code home and click on the green "Code" button.
@@ -24,6 +22,8 @@
 ### Project Plan
 * Here is where we started, we made a plan of action and hope to follow it closely and make this a COVID-19 tracker to be recokened with.
 * [Project Plan](https://docs.google.com/document/d/1MceTKLU3TJTQg3PkqIcMLYa7U4R2ov4QtojF4i7mKLc/edit)
+
+--------
 
 # Mini Code and Ticket Review
 ### Week of 2/15 - 2/19
@@ -38,13 +38,15 @@
 * 
 
 ## Login/Signup/Feedback Redesign: [Pragadeesh's Ticket](https://github.com/aymankazi9/P2-Platypodes/projects/1#card-53688163)
-* 
+* Began on the aesthetics redesign ticket; worked on a new theme for the website and implemented that for [Login](), Signup, 
+and Feedback
+  
+* Created more interactive Login and Signup with flipping cards using CSS and JS
+* Created new Feedback form completion confirmation; stays consistent with new theme
 
+### More details for each of the completed ticket items can be found detailed on the [Scrum Board](https://github.com/aymankazi9/P2-Platypodes/projects/1#column-12515206).
 
-
-### More details for each of the completed ticket items can be found detailed in the COMPLETED section on the [Scrum Board](https://github.com/aymankazi9/P2-Platypodes/projects/1#column-12515206).
-
-### Click on this [runtime link](http://76.176.59.167) or type the following into your browser: 76.176.59.167.
+### Check out [platypodestracker.cf](http://platypodestracker.cf/) to see our website.
 
 ------------------
 
