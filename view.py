@@ -170,7 +170,7 @@ def faq_route():
 
 
 @app.route('/prevention/')
-def info_route():
+def prevention_route():
     return render_template("/homesite/prevention.html", model=model.setup())
 
 
