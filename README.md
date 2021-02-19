@@ -32,7 +32,9 @@
 * 
 
 ## Login and Signup Backend: [Isai's Ticket](https://github.com/aymankazi9/P2-Platypodes/projects/1#card-53687851)
-* 
+* Began on signup page and worked on [getting user input in sign up page into database as username and password](https://github.com/aymankazi9/P2-Platypodes/blob/main/storesignup.py)
+* Then worked on login page to [get user input and compare it to queried sign up password](https://github.com/aymankazi9/P2-Platypodes/blob/main/storesignup.py) to allow user to login
+* Used POST to get user sign up and login information and then created app route to allow user to either navigate to home page or provide an error message based on if login was successful in [view.py.](https://github.com/aymankazi9/P2-Platypodes/blob/main/view.py) 
 
 ## FAQ Redesign: [Ayman's Ticket](https://github.com/aymankazi9/P2-Platypodes/projects/1#card-53052118)
 * 
