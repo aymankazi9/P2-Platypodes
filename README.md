@@ -38,17 +38,30 @@
 * Used POST to get user sign up and login information and then created app route to allow user to either navigate to home page or provide an error message based on if login was successful in [view.py.](https://github.com/aymankazi9/P2-Platypodes/blob/main/view.py) 
 
 ## FAQ Redesign: [Ayman's Ticket](https://github.com/aymankazi9/P2-Platypodes/projects/1#card-53052118)
-* I started to completely redesign the [FAQ page](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/homesite/information.html)
-* Based off of a new idea; there's a new main page with various features that has interactive buttons leading to the FAQ, Prevention, Trends, and Learn More page.
-  * Basic [template](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/homesite/learn.html) for the informational pages   
-  * A new style to make the website more interactive.
-  * See the new page [here](http://platypodestracker.cf/info/)
-* The pages still need to be linked to the CSS animated button on the Information page.
+* 
 
 ## Login/Signup/Feedback Redesign: [Pragadeesh's Ticket](https://github.com/aymankazi9/P2-Platypodes/projects/1#card-53688163)
 * Began on the aesthetics redesign ticket; worked on a [new theme](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/homesite/loginpage.html#L19-L43) for the website and implemented that for Login, Signup, 
 and Feedback
-  
+
+## Crossover Reflections
+* Their recommendations
+  * Get a domain name
+  * Integrate maps with table data
+  * More aesthetic CSS
+* We got the domain name: [platypodestracker.cf](http://platypodestracker.cf/)
+* We are planning on integrating maps with the table data and have added it to our scrum board
+* Pragadeesh and Ayman worked on the CSS and making a more aesthetics theme and site in general
+
+## College Board Reflections
+| Requirements   | Completion                                                                                             |
+| :---:          |    :----:                                                                                              |
+| Inputs         | * Inputs with feedback forms, login, and signup                                                        |
+| Lists          | * Append inputs of feedback, login, signup, and web scraping in a list that stores data in our databse |
+| Procedures     | * fetch_web_data and other procedures used and defined as functions with algorithms inside to orient the data, put data into the databse, and pull data into html |
+| Algorithms     | * Use iterations, try/excepts, and if/else algorithms to process data in lists                         |
+| Outputs        | * Output for web scraping presented in a table form in frontend html files and stylized with CSS       |
+
 * Created more interactive [Login and Signup](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/homesite/loginpage.html#L45-L131) with flipping cards using CSS and JS
 * Created new [Feedback form](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/homesite/feedback.html#L12-L28) completion [confirmation](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/misc/confirmation.html#L10-L21); stays consistent with new theme
 
