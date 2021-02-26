@@ -5,51 +5,52 @@
 
 <html>
 
-    <head>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        {% block head %}
-        {% endblock %}
-        <!-- Cookies consent banner -->
-        <link rel="stylesheet" type="text/css" href="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.css"/>
-        <script src="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.js" defer></script>
-        <script>window.addEventListener("load", function(){window.wpcc.init({"border":"thin","colors":{"popup":{"background":"#1b4b45","text":"#ffffff","border":"#b4eae4"},"button":{"background":"#b4eae4","text":"#000000"}},"position":"top","pushdown":true,"padding":"small","transparency":"25","fontsize":"large","corners":"small","content":{"message":"This website uses cookies to ensure you get the best experience on our website. ","link":"Learn more.","href":"/cookies/"}})});</script>
-    </head>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    {% block head %}
+    {% endblock %}
+    <!-- Cookies consent banner -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.css"/>
+    <script src="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.js" defer></script>
+    <script>window.addEventListener("load", function(){window.wpcc.init({"border":"thin","colors":{"popup":{"background":"#1b4b45","text":"#ffffff","border":"#b4eae4"},"button":{"background":"#b4eae4","text":"#000000"}},"position":"top","pushdown":true,"padding":"small","transparency":"25","fontsize":"large","corners":"small","content":{"message":"This website uses cookies to ensure you get the best experience on our website. ","link":"Learn more.","href":"/cookies/"}})});</script>
+</head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <!-- navbar color -->
-        <a class="navbar-brand" href="https://github.com/aymankazi9/P2-Platypodes/blob/main/README.md">{{name}}</a> <!-- navbar-brand link -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <!-- navbar color -->
+    <a class="navbar-brand" href="https://github.com/aymankazi9/P2-Platypodes/blob/main/README.md">{{name}}</a> <!-- navbar-brand link -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 
-            <ul class="navbar-nav"> <!-- holds navbar items -->
-                <a class="nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-link" href= "/aboutus/">About Us</a> <!-- each item is linked to a url decoration that is defined in view -->
-                <a class="nav-link" href= "/loginpage/">Login | Sign Up</a>
-                <a class="nav-link" href= "/newspage/">News</a>
-                <a class="nav-link" href= "/map/">COVID-19 Map</a>
-                <a class="nav-link" href= "/info/">Information</a>
-                <a class="nav-link" href= "/feedback/">Feedback</a>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Hotspots <!-- Dropdown menu that has 4 different tracker templates linked tt -->
-                    </a>
-                    <div class="dropdown-menu" style="position: absolute; z-index: 2;">
-                        <a class="dropdown-item" href="/california/">California</a>
-                        <a class="dropdown-item" href="/texas/">Texas</a>
-                        <a class="dropdown-item" href="/florida/">Florida</a>
+        <ul class="navbar-nav"> <!-- holds navbar items -->
+            <a class="nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href= "/aboutus/">About Us</a> <!-- each item is linked to a url decoration that is defined in view -->
+            <a class="nav-link" href= "/loginpage/">Login | Sign Up</a>
+            <a class="nav-link" href= "/newspage/">News</a>
+            <a class="nav-link" href= "/map/">COVID-19 Map</a>
+            <a class="nav-link" href= "/info/">Information</a>
+            <a class="nav-link" href= "/feedback/">Feedback</a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Hotspots <!-- Dropdown menu that has 4 different tracker templates linked tt -->
+                </a>
+                <div class="dropdown-menu" style="position: absolute; z-index: 2;">
+                    <a class="dropdown-item" href="/california/">California</a>
+                    <a class="dropdown-item" href="/texas/">Texas</a>
+                    <a class="dropdown-item" href="/florida/">Florida</a>
 
-                        <!--<div class="dropdown-divider"></div> divides materials within the dropdown by region (not completely necessary, plainly for aesthetics) -->
-                        <a class="dropdown-item" href="/newyork/">New York</a>
-                    </div>
+                    <!--<div class="dropdown-divider"></div> divides materials within the dropdown by region (not completely necessary, plainly for aesthetics) -->
+                    <a class="dropdown-item" href="/newyork/">New York</a>
+                </div>
 
-                </li>
+            </li>
 
-            </ul>
-        </div>
-    </nav>
+        </ul>
+    </div>
+</nav>
 </body>
 
 <body>
