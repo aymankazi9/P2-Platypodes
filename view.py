@@ -5,6 +5,7 @@ import model
 from flask import render_template
 import sqlite3 as sl3
 
+
 app = Flask(__name__)
 import stats
 import storefb
@@ -76,7 +77,7 @@ def map_route():
     # for row in data:
     # print(row)
 
-    return render_template("/homesite/map.html", rows=c.fetchall(), model=model.setup())
+    return render_template("/homesite/map.html", rows =c.fetchall(), model=model.setup())
 
 
 @app.route('/feedback_form', methods=['POST'])
