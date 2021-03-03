@@ -64,7 +64,7 @@
         margin-right: auto;
         width: 1200px;
         height: 700px;
-        background-color: #D7CCC8;
+        background-color: #d7ccc8; /*d7ccc8*/
         font-size: 14px;
         font-family: "Montserrat", sans;
     }
@@ -153,7 +153,7 @@
         margin-left: auto;
         margin-right: auto;
         align-self: flex-start;
-        overflow: hidden;
+        overflow: scroll;
         animation: reveal-info 4s ease 3s;
         -webkit-animation: reveal-info 4s ease 3s;
     }
@@ -164,7 +164,7 @@
     .container .container-inner .image-wrapper .image-container {
         width: 100%;
         height: 100%;
-        overflow: hidden;
+        overflow: scroll;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -384,13 +384,14 @@
                 <p id="by-line">Information provided by the P2-Platypodes</p>
 
                 <div class="heading">
-                    <h3 id="heading1">COVID-19 Frequently Asked</h3>
-                    <h3 id="heading2"></h3>
-                    <h1 id="heading3">Questions</h1>
+                    <h3 id="heading1">Have Some Questions</h3>
+                    <h3 id="heading2">That Need To Be</h3>
+                    <h1 id="heading3">Answered?</h1>
                 </div>
 
                 <div class="short-bio">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, repellat, quod sed optio nesciunt aspernatur inventore ab, nostrum accusantium harum dolor voluptate nulla!</p>
+                    <p>Without proper information and knowledge, people can make choices that have a negative impact on themselves and others.
+                        To avoid these consequences it is better to be informed. </p>
 
                 </div>
 
@@ -399,20 +400,28 @@
 
             <div class="more-info " id="more-info-js">
 
-                <h4>Lorem ipsum dolor sit.</h4>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse expedita impedit iste, quibusdam debitis fugit repudiandae voluptatum vero quod nulla!</p>
-
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita delectus iusto facere dignissimos quaerat facilis voluptatibus fuga quod impedit. Atque tenetur amet officia repudiandae odit.</p>
-
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni saepe suscipit deleniti porro fugit! Atque nisi alias a porro fugiat incidunt exercitationem! Nihil, consectetur. Expedita.</p>
+                <h6></h6>
+                <p><b>How long does it take to experience COVID-19 symptoms after exposure?</b><br/>Symptoms may appear 2-14 days after you were exposed.</p>
+                <p><b>How long do you need to stay home after coming into close contact with someone who has COVID-19?</b><br/>Anyone who has had close contact with someone with COVID-19 should stay home for 14 days after their last exposure to that person.</p>
+                <p><b>How should I quarantine myself from family members if I have COVID-19?</b>
+                <ul>
+                    <li>Stay home unless you absolutely must leave, such as for essential medical appointments.</li>
+                    <li>Separate yourself from other household members and pets.</li>
+                    <li>Use a separate bedroom and bathroom if possible.</li>
+                    <li>Not share utensils, dishes, cups/glasses, bedding, towels, and other personal items.</li>
+                </ul>
+                </p>
+                <p><b>What are some symptoms of COVID-19?</b><br/>Symptoms include the following: fever or chills, cough, shortness of breath or difficulty breathing, fatigue, muscle or body aches, headache, new loss of taste or smell, sore throat, congestion or runny nose, nausea or vomiting, and diarrhea.</p>
+                <p><b>If anybody is showing any of the following emergency warning signs of COVID-19, seek emergency medical care immediately.</b><br/>Trouble breathing, persistent pain or pressure in the chest, new confusion, inability to wake or stay awake, or bluish lips or face.</p>
+                <p><a href = "https://www.cdc.gov/coronavirus/2019-ncov/faq.html">CDC'S official page on COVID-19 FAQ</a></p>
             </div>
         </div>
 
-        <div class="image-wrapper">
+        <!--<div class="image-wrapper">
             <div class="image-container">
                 <img class="image" src="https://www.elpaccto.eu/wp-content/uploads/2020/03/fusion-medical-animation-rnr8D3FNUNY-unsplash-scaled.jpg" >
             </div>
-        </div>
+        </div>-->
     </div>
 </div>
 {% endblock %}
@@ -462,7 +471,7 @@
 .content {
   padding: 0 18px;
   max-height: 0;
-  overflow: hidden;
+  overflow: scroll;
   transition: max-height 0.2s ease-out;
   background-color: #6aa461;
 }
@@ -531,6 +540,7 @@ for (i = 0; i < coll.length; i++) {
 
 <h1 style="text-align:center;color:#f2edae">Learn More</h1>
 <h3 style="color: #1c3057">~</h3>
+<!-- end of old FAQ -->
 
 
 
