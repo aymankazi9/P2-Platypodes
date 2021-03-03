@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block head %}
-<title> Learn More </title>
+<title> COVID-19 Prevention </title>
 {% endblock %}
 
 
@@ -155,7 +155,7 @@
         margin-left: auto;
         margin-right: auto;
         align-self: flex-start;
-        overflow: hidden;
+        overflow: scroll;
         animation: reveal-info 4s ease 3s;
         -webkit-animation: reveal-info 4s ease 3s;
     }
@@ -166,7 +166,7 @@
     .container .container-inner .image-wrapper .image-container {
         width: 100%;
         height: 100%;
-        overflow: hidden;
+        overflow: scroll; !important;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -224,7 +224,7 @@
             margin-left: 60px !important;
         }
         .more-info {
-            height: 150px !important;
+            height: 900px !important;
             width: 60% !important;
             margin: 0 !important;
             align-self: flex-start !important;
@@ -263,8 +263,8 @@
             animation-name: none !important;
         }
         .container {
-            width: 90%;
-            height: 900px;
+            max-width: 90%;
+            max-height: 900px;
             margin-left: auto;
             margin-right: auto;
             font-size: 8px;
@@ -383,7 +383,7 @@
     <div class="container-inner">
         <div class="main-content">
             <div class="main-headings" id="main-headings-js">
-                <p id="by-line">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p id="by-line">Information provided by the P2-Platypodes</p>
 
                 <div class="heading">
                     <h3 id="heading1">Need</h3>
@@ -392,7 +392,7 @@
                 </div>
 
                 <div class="short-bio">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, repellat, quod sed optio nesciunt aspernatur inventore ab, nostrum accusantium harum dolor voluptate nulla!</p>
+                    <h4></h4>
 
                 </div>
 
@@ -401,12 +401,22 @@
 
             <div class="more-info " id="more-info-js">
 
-                <h4>Lorem ipsum dolor sit.</h4>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse expedita impedit iste, quibusdam debitis fugit repudiandae voluptatum vero quod nulla!</p>
-
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita delectus iusto facere dignissimos quaerat facilis voluptatibus fuga quod impedit. Atque tenetur amet officia repudiandae odit.</p>
-
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni saepe suscipit deleniti porro fugit! Atque nisi alias a porro fugiat incidunt exercitationem! Nihil, consectetur. Expedita.</p>
+                <h4></h4>
+                <hr>
+                <!--<p>The best way to prevent illness is to avoid being exposed to this virus. Learn how COVID-19 spreads and practice these actions to help prevent the spread of this illness.</p>-->
+                <p>To help prevent the spread of COVID-19, everyone should:
+                    <ul>
+                        <li>Clean your hands often, either with soap and water for 20 seconds or a hand sanitizer that contains at least 60% alcohol.</li>
+                        <li>Avoid close contact with people who are sick.</li>
+                        <li>Put distance between yourself and other people (at least 6 feet).</li>
+                        <li>Cover your mouth and nose with a mask when around others.</li>
+                        <li>Cover your cough or sneeze with a tissue, then throw the tissue in the trash.</li>
+                        <li>Clean and disinfect frequently touched objects and surfaces daily.</li>
+                        <li>CDC recommends that people wear masks in public settings and when around people outside of their household, especially when other social distancing measures are difficult to maintain.</li>
+                        <li>Masks may help prevent people who have COVID-19 from spreading the virus to others.</li>
+                        <li><a href = "https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html">CDC'S official page on COVID-19 prevention</a></li>
+                    </ul>
+                </p>
             </div>
 
         </div>
