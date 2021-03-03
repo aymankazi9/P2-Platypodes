@@ -183,3 +183,7 @@ def trends_route():
 @app.route('/learnmore/')
 def learn_route():
     return render_template("/homesite/learn.html", model=model.setup())
+
+@app.route('/dashboard/')
+def dash_route():
+    return render_template("/homesite/dashboard.html", model=model.setup())
