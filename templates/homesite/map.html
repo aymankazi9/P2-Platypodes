@@ -31,7 +31,7 @@
 
         #data tr:hover {
             transition: 1s ease-in-out;
-            background: #f2edae;
+            background: #fbaf44;
         }
 
         #data th {
@@ -45,14 +45,35 @@
         html {
             scroll-behavior: smooth;
         }
+
+        table {
+            border:100px solid #59ABE3;
+        }
+
+        table tr:first-child th:last-child {
+            border-top-right-radius: 10px !important;
+        }
+
+        table tr:first-child th:first-child {
+            border-top-left-radius: 10px !important;
+        }
+
+
+        table tr:last-child td:first-child {
+            border-bottom-left-radius: 10px !important;
+        }
+
+        table tr:last-child td:last-child {
+            border-bottom-right-radius: 10px !important;
+        }
     </style>
 </head>
 
-<body style="background-color: #1c3057;">
-<h1 style="text-align:center; color: #f2edae"> COVID-19 Interactive Map </h1>
-<h3 style="color: #1c3057">~</h3>
-<h2 style = "text-align:center; color: #f2edae">Select your state to view related COVID-19 information.</h2>
-<h1 style="color: #1c3057">~</h1>
+<body style="background-color: #59ABE3;">
+<h1 style="text-align:center; color: white"> COVID-19 Interactive Map </h1>
+<h3 style="color: #59ABE3">~</h3>
+<h2 style = "text-align:center; color: white">Select your province to view COVID-19 statistics.</h2>
+<h1 style="color: #59ABE3">~</h1>
 
 <img src="/static/us%20map.svg" alt="USA" usemap="#usamap" width="962" height="583">
 <!-- image used for the <map> (california image with adjustable dimensions and an alternate title for later reference -->
@@ -191,43 +212,43 @@
 </map> <!-- area attribute defines link type (rectangle, circle, polygon). Coordinate define location of shape. alt for
     reference of city. href takes the user to the html template -->
 
-<h1 style="color: #1c3057">~</h1>
-<h1 style="color: #1c3057">~</h1>
+<h1 style="color: #59ABE3">~</h1>
+<h1 style="color: #59ABE3">~</h1>
 
 <table class="table table-hover" id="data">
     <thead>
     <tr>
-        <th style="color: #f2f2f2">#</th>
-        <th style="color: #f2f2f2">State Name</th>
-        <th style="color: #f2f2f2">Total Cases</th>
-        <th style="color: #f2f2f2">New Cases </th>
-        <th style="color: #f2f2f2">Total Deaths</th>
-        <th style="color: #f2f2f2">New Deaths</th>
-        <th style="color: #f2f2f2">Total Recovered</th>
-        <th style="color: #f2f2f2">Active Cases</th>
-        <th style="color: #f2f2f2">Cases per Million</th>
-        <th style="color: #f2f2f2">Deaths per Million</th>
-        <th style="color: #f2f2f2">Total Tests</th>
-        <th style="color: #f2f2f2">Tests per Million</th>
-        <th style="color: #f2f2f2">Population</th>
+        <th style="color: #f2f2f2; text-align: center">#</th>
+        <th style="color: #f2f2f2; text-align: center">Area Name</th>
+        <th style="color: #f2f2f2; text-align: center">Total Cases</th>
+        <!--<th style="color: #f2f2f2">New Cases </th>-->
+        <th style="color: #f2f2f2; text-align: center">Total Deaths</th>
+        <!--<th style="color: #f2f2f2">New Deaths</th>-->
+        <!--<th style="color: #f2f2f2">Total Recovered</th>-->
+        <!--<th style="color: #f2f2f2">Active Cases</th>-->
+        <th style="color: #f2f2f2; text-align: center">Cases per Million</th>
+        <th style="color: #f2f2f2; text-align: center">Deaths per Million</th>
+        <th style="color: #f2f2f2; text-align: center">Total Tests</th>
+        <th style="color: #f2f2f2; text-align: center">Tests per Million</th>
+        <th style="color: #f2f2f2; text-align: center">Population</th>
     </tr>
     </thead>
     <tbody>
     {% for row in rows %}
     <tr id={{row[0]}}>
-        <td id="row0" style="color: #1c1b1b">{{row[0]}}</td>
-        <td id="row1" style="color: #1c1b1b">{{row[1]}}</td>
-        <td id="row2" style="color: #1c1b1b">{{row[2]}}</td>
-        <td id="row3" style="color: #1c1b1b">{{row[3]}}</td>
-        <td id="row4" style="color: #1c1b1b">{{row[4]}}</td>
-        <td id="row5" style="color: #1c1b1b">{{row[5]}}</td>
-        <td id="row6" style="color: #1c1b1b">{{row[6]}}</td>
-        <td id="row7" style="color: #1c1b1b">{{row[7]}}</td>
-        <td id="row8" style="color: #1c1b1b">{{row[8]}}</td>
-        <td id="row9" style="color: #1c1b1b">{{row[9]}}</td>
-        <td id="row10" style="color: #1c1b1b">{{row[10]}}</td>
-        <td id="row11" style="color: #1c1b1b">{{row[11]}}</td>
-        <td id="row12" style="color: #1c1b1b">{{row[12]}}</td>
+        <td id="row0" style="color: #1c1b1b; text-align: center">{{row[0]}}</td>
+        <td id="row1" style="color: #1c1b1b; text-align: center">{{row[1]}}</td>
+        <td id="row2" style="color: #1c1b1b; text-align: center">{{row[2]}}</td>
+        <!--<td id="row3" style="color: #1c1b1b">{{row[3]}}</td>-->
+        <td id="row4" style="color: #1c1b1b; text-align: center">{{row[4]}}</td>
+        <!--<td id="row5" style="color: #1c1b1b">{{row[5]}}</td>-->
+        <!--<td id="row6" style="color: #1c1b1b">{{row[6]}}</td>-->
+        <!--<td id="row7" style="color: #1c1b1b">{{row[7]}}</td>-->
+        <td id="row8" style="color: #1c1b1b; text-align: center">{{row[8]}}</td>
+        <td id="row9" style="color: #1c1b1b; text-align: center">{{row[9]}}</td>
+        <td id="row10" style="color: #1c1b1b; text-align: center">{{row[10]}}</td>
+        <td id="row11" style="color: #1c1b1b; text-align: center">{{row[11]}}</td>
+        <td id="row12" style="color: #1c1b1b; text-align: center">{{row[12]}}</td>
     </tr>
     {% endfor %}
     </tbody>
