@@ -1,62 +1,126 @@
-{% extends "base.html" %}
+{% extends "base.html"%}
 
 {% block head %}
 <title> Meet the Platypodes </title>
 {% endblock %}
 
 {% block content %}
-<body style="background-color: #1c3057"></body>
-<h1 style="text-align:center; color: #f2edae"> Meet the Platypodes </h1>
-<h3 style="color: #1c3057">~</h3>
-<h5 style="text-align:center; color: #f2edae">Get to know the developers and their backgrounds a bit better!</h5>
-<h1 style="color: #1c3057">~</h1>
-<center>
-    <div class="card" style="width: 500px; background-color: #f2efd0">
-        <img src="/static/Ayman.jpg" width="500" height="616.910229645">
-        <div class="card-body">
-            <h5 class="card-title"> Ayman Kazi (Scrum Master)</h5>
-            <p class="card-text"> Hey users! I am a junior at Del Norte High School trying to become an experienced coder
-                and benefit the world. Our team came up with an idea on how we could accomplish both. We decided to design
-                a Covid-Covid-19 tracker that would display all relevant statistics and handpicked news article for you.
-            </p>
-        </div>
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "Times", sans-serif;
+        }
+
+        body_about {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: #34495e;
+        }
+
+        .cards_about {
+            color: #323030;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .card_about {
+            border-radius: 10px;
+            margin: 40px;
+            position: relative;
+            max-width: 250px;
+            max-height: 350px;
+            background-color: white;
+            box-shadow: 10px 20px 50px -30px black;
+        }
+
+        .card-title_about {
+            display: block;
+            text-align: center;
+            color: #78788c;
+            background-color: white;
+            padding: 2%;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+        }
+
+        .card_about img {
+            width: 80%;
+            height: 80%;
+            align-content: center;
+            object-fit: cover;
+            display: block;
+            border-radius: 10px;
+            position: relative;
+        }
+
+        img.center {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .card-desc_about {
+            display: block;
+            font-size: 1.2rem;
+            position: absolute;
+            height: 0;
+            top: 0;
+            opacity: 0;
+            padding: 18px 8%;
+            background-color: white;
+            overflow-y: scroll;
+            transition: 0.8s ease;
+        }
+
+        .card_about:hover .card-desc_about {
+            opacity: 1;
+            height: 100%;
+        }
+    </style>
+</head>
+<body style="background-color: #59ABE3"></body>
+
+</br>
+<h1 style="font-family: Palatino; color: white; text-align: center">Meet the Platypodes</h1>
+</br>
+</br>
+<h2 style="font-family: Palatino; color: white; text-align: center">Get to know the developers and their backgrounds a bit better!</h2>
+<div class="cards_about">
+    <div class="card_about">
+        <h2 class="card-title_about">Ayman Kazi</h2>
+        <img class="center" src="/static/developers/Ayman.jpg" alt="">
+        <p class="card-desc_about">Hey users! I am a junior at Del Norte High School trying to become an experienced coder
+            and benefit the world. Our team came up with an idea on how we could accomplish both. We decided to design
+            a Covid-Covid-19 tracker that would display all relevant statistics and handpicked news article for you.</p>
     </div>
-</center>
-<center>
-    <div class="card" style="width: 500px; background-color: #f2efd0">
-        <img src="/static/Pragadeesh.jpg" width="500" height="665.517241379">
-        <div class="card-body">
-            <h5 class="card-title"> Pragadeesh Raj (Frontend Developer)</h5>
-            <p class="card-text"> Hi, my name is Pragadeesh and I'm currently a junior in Del Norte High School. Throughout my high school career,
-                I have been very passionate about medicine and availability of medical information to all. During COVID-19,
-                many people are unaware of certain aspects of the virus and the implications. Therefore, this computer science
-                project was the perfect opportunity to create a COVID-19 tracker and make details about the virus known
-                to a large audience.
-            </p>
-        </div>
+    <div class="card_about">
+        <h2 class="card-title_about">Pragadeesh Raj</h2>
+        <img class="center" src="/static/developers/Pragadeesh.jpg" alt="">
+        <p class="card-desc_about">Hi, my name is Pragadeesh and I'm currently a junior in Del Norte High School. Throughout my high school career,
+            I have been very passionate about medicine and availability of medical information to all. During COVID-19,
+            many people are unaware of certain aspects of the virus and the implications. Therefore, this computer science
+            project was the perfect opportunity to create a COVID-19 tracker and make details about the virus known
+            to a large audience.</p>
     </div>
-</center>
-<center>
-    <div class="card" style="width: 500px; background-color: #f2efd0">
-        <img src="/static/Isai.jpg" width="500" height="550">
-        <div class="card-body">
-            <h5 class="card-title"> Isai Rajaraman (Backend Developer)</h5>
-            <p class="card-text"> Hello my name is Isai and I am a junior attending Del Norte High School.
-            </p>
-        </div>
+    <div class="card_about">
+        <h2 class="card-title_about">Isai Rajaraman</h2>
+        <img class="center" src="/static/developers/Isai.jpg" alt="">
+        <p class="card-desc_about">Hello my name is Isai and I am a junior attending Del Norte High School.</p>
     </div>
-</center>
-<center>
-    <div class="card" style="width: 500px; background-color: #f2efd0">
-        <img src="/static/Karam.jpg" width="500" height="666.6666667">
-        <div class="card-body">
-            <h5 class="card-title"> Karam Alshaikh (Frontend Developer)</h5>
-            <p class="card-text"> Hello my name is Karam and I am a junior attending Del Norte High School. The reason
-                behind this website is to show people the true colors of COVID 19 and how it is impacting everyone around
-                the world.
-        </div>
+    <div class="card_about">
+        <h2 class="card-title_about">Karam Alshaikh</h2>
+        <img class="center" src="/static/developers/Karam.jpg" alt="">
+        <p class="card-desc_about">Hello my name is Karam and I am a junior attending Del Norte High School. The reason
+            behind this website is to show people the true colors of COVID 19 and how it is impacting everyone around
+            the world.</p>
     </div>
-</center>
+
+</div>
 {% endblock %}
 
 
