@@ -1,217 +1,182 @@
-@import 'https://fonts.googleapis.com/css?family=Lato:300,400';
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+    <link rel="stylesheet" href="Dashboard.css">
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
 
-* {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-}
-body, html {
-font-family: 'Lato', sans-serif;
-font-size: 20px;
-height: 100%;
-position: relative;
-}
+    body{
+    height: 100vh;
+        background-image: linear-gradient(#ffcccb, #ADD8E6);
+        background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
 
-.clearfix:after {
-content: "";
-display: block;
-clear: both;
-}
+    .profile-card{
+    width: 400px;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+    }
 
-a {
-color: #fff;
-text-decoration: none;
-}
+    .card-header{
+    background: #2c3a47;
+    padding: 60px 40px;
+    }
 
-.nav-btn {
-width: 100%;
-height: 35px;
-padding-top: 4px;
-color: #D5D3D3;
-background-color: #212121;			 ;
-text-align: center;
-cursor: pointer;
-display: none;
-}
-.nav-btn:active {
-background-color: #090909;
-}
+    .pic{
+    display: inline-block;
+    padding: 8px;
+    background: linear-gradient(130deg, #74b9ff, #e66767);
+    margin: auto;
+    border-radius: 50%;
+    background-size: 200% 200%;
+    animation: animated-gradient 2s linear infinite;
+    }
 
-header {
-height: 50px;
-width: 100%;
-background-color: #274C6B;
-display: none;
-}
+    @keyframes animated-gradient{
+    25%{
+    background-position: left bottom;
+    }
+    50%{
+    background-position: right bottom;
+    }
+    75%{
+    background-position: right top;
+    }
+    100%{
+    background-position: left top;
+    }
+    }
 
-header .logo {
-opacity: 0.9;
-font-size: 120%;
-padding-top: 9px;
-padding-left: 8px;
-color: #fff;
-}
-header .logo span {
-font-weight: 300;
-}
+    .pic img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    }
 
-.container {
-width: 100%;
-height: 100%;
-position: relative;
-}
+    .name{
+    color: #f2f2f2;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 10px 0;
+    }
 
-.sidebar {
-width: 250px;
-background-color: #302F2F;
-position: fixed;
-top: 0px;
-left: 0;
-bottom: 0;
-box-shadow: 1px 0px 10px #777;
-}
+    .desc{
+    font-size: 18px;
+    color: #e66767;
+    }
 
-.sidebar nav > a {
-font-size: 150%;
-display: inline-block;
-padding: 30px 0px;
-padding-left: 30px;
-opacity: 0.7;
-transition: all 0.2s;
-}
-.sidebar nav > a:hover {
-opacity: 1;
-}
+    .sm{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    }
 
-.sidebar nav a span {
-font-weight: 300;
-}
+    .sm a{
+    color: #f2f2f2;
+    width: 56px;
+    font-size: 22px;
+    transition: .3s linear;
+    }
 
-.sidebar nav ul {
-list-style: none;
-}
+    .sm a:hover{
+    color: #e66767;
+    }
 
-.sidebar nav ul li {
-font-size: 70%;
-padding: 19px 0;
-padding-left: 20px;
-border-bottom: 0.5px solid #111;
-}
+    .contact-btn{
+    display: inline-block;
+    padding: 12px 50px;
+    color: #e66767;
+    border: 2px solid #e66767;
+    border-radius: 6px;
+    margin-top: 16px;
+    transition: .3s linear;
+    }
 
-.sidebar nav ul li:nth-child(1):hover {
-background-color: #e67e22;
-}
+    .contact-btn:hover{
+    background: #e66767;
+    color: #f2f2f2;
+    }
 
-.sidebar nav ul li:nth-child(1).active {
-background-color: #e67e22;
-}
+    .card-footer{
+    background: #f4f4f4;
+    padding: 60px 10px;
+    }
 
-.sidebar nav ul li:nth-child(2):hover {
-background-color: #2980b9;
-}
+    .numbers{
+    display: flex;
+    align-items: center;
+    }
 
-.sidebar nav ul li:nth-child(2).active {
-background-color: #2980b9;
-}
+    .item{
+    flex: 1;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #e66767;
+    }
 
-.sidebar nav ul li:nth-child(3):hover {
-background-color: #16a085;
-}
+    .item span{
+    display: block;
+    color: #2c3a47;
+    font-size: 30px;
+    }
 
-.sidebar nav ul li:nth-child(3).active {
-background-color: #16a085;
-}
+    .border{
+    width: 1px;
+    height: 30px;
+    background: #bbb;
+    }
+</style>
+<body>
+<div class = "profile-card">
+<div class = "card holder" >
+<div class = "pic">
+<img src = "/static/home/img.png" alt="basic user profile">
+</div>
 
-.sidebar nav ul li:nth-child(4):hover {
-background-color: #8e44ad;
-}
-
-.sidebar nav ul li:nth-child(4).active {
-background-color: #8e44ad;
-}
-
-.sidebar nav ul li:nth-child(5):hover {
-background-color: #f1c40f;
-}
-
-.sidebar nav ul li:nth-child(5).active {
-background-color: #f1c40f;
-}
-
-
-.sidebar nav ul li a {
-color: #D7D5D5;
-}
-
-.sidebar nav ul li:hover a{
-color: #fff;
-}
-
-.main-content {
-background-color: #fafafa;
-width: calc(100% - 250px);
-height: 100%;
-margin-left: 250px;
-padding: 20px 30px;
-}
-.main-content .panel-wrapper {
-margin: 20px 0;
-box-shadow: 0px 1px 5px #777;
-}
-
-.main-content .panel-wrapper .panel-head {
-background-color: #00A5F2;
-color: #fff;
-padding: 10px 10px;
-border: 1px solid #00A5F2;
-}
-.main-content .panel-wrapper .panel-body {
-padding: 20px 10px;
-font-size: 80%;
-}
-
-@media only screen and (max-width: 420px){
-header {
-display: block;
-}
-.nav-btn {
-display: block;
-}
-.sidebar {
-position: relative;
-height: 378px;
-width: 100%;
-display: none;
-margin-bottom: 40px;
-z-index: 1000;
-}
-.main-content {
-width: 100%;
-margin-left: 0;
-z-index: -1;
-position: relative;
-}
-}
-
-@media only screen and (max-width: 768px){
-header {
-display: block;
-}
-.nav-btn {
-display: block;
-}
-.sidebar {
-position: relative;
-height: 378px;
-width: 100%;
-display: none;
-margin-bottom: 40px;
-z-index: 1000;
-}
-.main-content {
-width: 100%;
-margin-left: 0;
-z-index: -1;
-position: relative;
-}
-}
+    <div class="name">User </div>
+    <div class="desc">Subscriber Since October 2020</div>
+    <div class="sm">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="https://github.com/aymankazi9/P2-Platypodes" class="fab fa-github"></a>
+        <a href="#" class="fab fa-youtube"></a>
+    </div>
+    <a href="/feedback/" class="contact-btn"> Give us feedback! </a>
+    </div>
+    <div class="card-footer">
+        <div class="numbers">
+            <div class="item">
+                <span>356</span>
+                Page views
+            </div>
+            <div class="border"></div>
+            <div class="item">
+                <span>N/A</span>
+                Users registered
+            </div>
+            <div class="border"></div>
+            <div class="item">
+                <span>1,156</span>
+                Messages
+            </div>
+        </div>
+    </div>
+    </div>
+    </body>
+</html>

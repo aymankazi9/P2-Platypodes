@@ -125,7 +125,7 @@ def login():
     print('Login Page Password:', psswrd)
     result = storesignup.logincheck(mailadd, psswrd)
     if result == "yes":
-        return render_template("/homesite/home.html", model=model.setup())
+        return render_template("/homesite/dashboard.html", model=model.setup())
     else:
         return render_template("/homesite/loginpage.html", msg='Invalid Username or Password', model=model.setup())
 
