@@ -6,21 +6,112 @@
 
 {% block content %} <!-- temporary title of city just for testing purposes -->
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
+        *{
+            font-family: 'Open Sans';
+            line-height: 170%;
+            color: white;
+        }
+        body, p, h1, h2{
+            margin: 0;
+            padding: 0;
+        }
+        h2{
+            margin-top: 20px;
+        }
+        mark {
+            background-color: #444444;
+            padding: 0px 3px;
+        }
+
+        .wrapper{
+            padding: 100px;
+            margin: 0 0 50px 0;
+            text-align: left;
+            height: 80vh;
+            background: url('https://i.imgur.com/TnaS8D0.png') no-repeat center center fixed;
+            background-size: cover;
+            transition: all 0.4s ease;
+        }
+        .articleText{
+            margin: 0 10% 30px 20%;
+            width: 60%;
+            max-width: 800px;
+            padding-left: 30px;
+            border-left: 1px solid #cccccc;
+            transition: all 0.4s ease;
+        }
+        .introduction{
+            margin-bottom: 20px;
+        }
+        button{
+            font-size: 16px;
+            width: 100%;
+            background: white;
+            border: 0;
+            padding: 12px 0px;
+            transition: all ease 0.5s;
+            cursor: pointer;
+        }
+        button:hover{
+            box-shadow: inset 400px 0 0 0 #444;
+            color: white;
+        }
+
+        @media only screen and (max-width: 1000px) {
+            /* For tablets: */
+            .articleText {
+                margin: 0 10% 30px 10%;
+                width: 80%;
+                max-width: 800px;
+                padding-left: 0px;
+                border: 0;
+            }
+        }
+        @media only screen and (max-width: 768px) {
+            /* For mobile phones: */
+            .articleText {
+                margin: 0 5% 30px 5%;
+                width: 90%;
+            }
+            .wrapper{
+                padding: 5%;
+            }
+        }
+        .card {
+            margin-top: 16px;
+            margin-left: 16px;
+            height: 400px;
+            margin-right: 16px;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            border-radius: 10px;
+        }
+        .card-table {
+            word-break: break-all;
+        }
+    </style>
 </head>
-<body style = "background-color: #e6ddc8;" >
-    <h1 style="text-align:center;"> California </h1>
-    <h3 style="color: #e6ddc8">~</h3>
-    <h2 style="text-align:center;"> Trackers Coming Soon!</h2>
-    <h1 style="color: #e6ddc8">~</h1>
-    <img src="/static/California.jpg" width="900" height="592">
-    <h5><a href="https://www.agedpixel.com/">Art by Aged Pixel</a></h5>
+<body>
+<div class="article">
+    <div class="wrapper">
+        <div class="wrapperText">
+            <h1>
+                <mark style="color: white">Hotspot | California</mark>
+            </h1>
+            <p id="author">
+                <mark style="color: white">by: Ayman Kazi</mark>
+            </p>
+        </div>
+    </div>
+    <div class="articleText">
+        <h4 style="color: #444444" class="introduction">Intro</h4>
+        <p style="color: #545353">Content</p>
+        <h2 style="color: #444444">Subheading</h2>
+        <p style="color: #545353">Content</p>
+        <p style="color: #545353">Content</p>
+        <h2 style="color: #444444">Subheading</h2>
+        <p style="color: #545353">Content</p>
+    </div>
+</div>
 </body>
 {% endblock %}

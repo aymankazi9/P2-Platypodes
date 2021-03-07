@@ -5,7 +5,6 @@ import model
 from flask import render_template
 import sqlite3 as sl3
 
-
 app = Flask(__name__)
 import stats
 import storefb
@@ -62,7 +61,11 @@ def fl_route():
 
 @app.route('/newyork/')
 def ny_route():
-    return render_template("/trackers/ny.html", model=model.setup())
+    conn = sl3.connect('platypodes.db')
+    c = conn.cursor()
+    c.execute("SELECT * FROM COVIDSTATS")
+
+    return render_template("/trackers/ny.html", rows=c.fetchall(), model=model.setup())
 
 
 @app.route('/map/')
@@ -77,7 +80,7 @@ def map_route():
     # for row in data:
     # print(row)
 
-    return render_template("/homesite/map.html", rows =c.fetchall(), model=model.setup())
+    return render_template("/homesite/map.html", rows=c.fetchall(), model=model.setup())
 
 
 @app.route('/feedback_form', methods=['POST'])
@@ -183,6 +186,7 @@ def trends_route():
 @app.route('/learnmore/')
 def learn_route():
     return render_template("/homesite/learn.html", model=model.setup())
+
 
 @app.route('/dashboard/')
 def dash_route():
