@@ -5,96 +5,263 @@
 {% endblock %}
 
 {% block content %}
-<html>
-<style>
-body, html {
-  height: 100%;
-  margin: 0;
-}
+<head>
+    <style>
+        html,
+        body,
+        header,
+        #main {
+            height: 100%;
+        }
 
-.bgimg {
-  background-image: radial-gradient(#359697, #1c3057 );
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  color: #f2edae;
-  //font-family: "Courier New", Courier, monospace;
-  font-size: 25px;
-}
+        #main {
+            background: url("/static/home/COVID earth.jpeg")no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
 
-.topleft {
-  position: absolute;
-  top: 0;
-  left: 16px;
-}
+        h2a {
+            text-shadow: 2px 2px 10px black;
+        }
 
-.bottomleft {
-  position: absolute;
-  bottom: 0;
-  left: 16px;
-}
+        h4a {
+            text-shadow: 2px 2px 7px black;
+        }
 
-.middle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
+        buttona {
+            text-shadow: 2px 2px 7px black;
+        }
 
-hr {
-  margin: auto;
-  width: 40%;
-}
-</style>
-<body>
+        .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited{
+            background-color: #fbaf44 !important;
+        }
+    </style>
+</head>
+<body style="background-color: #59ABE3">
+<section id="gallery">      <!-- Article 2 -->
 
-<div class="bgimg">
-    <div>
-        <h2 style="text-align:center;">Personalized news articles brought to you.</h2>
+    <!-- Heading -->
+    <h2 style="color: white; font-family: Palatino; font-size: 70pt" class="mb-5 font-weight-bold text-center">The Platypodes Times</h2>
+
+    <!--Grid row-->
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-6 mb-4">
+
+            <!--Carousel Wrapper-->
+            <div id="carousel-example-1z" class="carousel slide carousel-fade carousel-fade" data-ride="carousel">
+                <!--Indicators-->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+                </ol>
+                <!--/.Indicators-->
+                <!--Slides-->
+                <div class="carousel-inner z-depth-1-half" role="listbox">
+                    <!--First slide-->
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="https://www.minnpost.com/wp-content/uploads/2020/03/coronavirusCDC640.png"
+                             alt="First slide">
+                    </div>
+                    <!--/Third slide-->
+                </div>
+                <!--/.Slides-->
+                <!--/.Controls-->
+            </div>
+            <!--/.Carousel Wrapper-->
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-6">
+
+            <!--Excerpt-->
+            <h4 style="color: white; font-family: Times" class="mb-3"><strong>Title</strong></h4>
+            <p style="color: white; font-family: Times">(Source) - P1
+
+            </p>
+
+            <p style="color: white; font-family: Times">P2
+            </p>
+            <p style="color: white; font-family: Times">by <a><strong>Author</strong></a>, 1:09 PM PST, Web February 24, 2021 </p>
+
+        </div>
+        <!--Grid column-->
+
     </div>
-    <div class="middle">
-        <h1>COMING SOON</h1>
-        <hr>
-        <p id="demo" style="font-size:30px"></p>
+    <!--Grid row-->
+
+</section>
+<br/>
+<br/>
+<br/>
+<section id="gallery">      <!-- Article 1 -->
+
+    <!--Grid row-->
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-6 mb-4">
+
+            <!--Carousel Wrapper-->
+            <div id="carousel-example-1z" class="carousel slide carousel-fade carousel-fade" data-ride="carousel">
+                <!--Indicators-->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+                </ol>
+                <!--/.Indicators-->
+                <!--Slides-->
+                <div class="carousel-inner z-depth-1-half" role="listbox">
+                    <!--First slide-->
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="https://www.minnpost.com/wp-content/uploads/2020/03/coronavirusCDC640.png"
+                             alt="First slide">
+                    </div>
+                    <!--/Third slide-->
+                </div>
+                <!--/.Slides-->
+                <!--/.Controls-->
+            </div>
+            <!--/.Carousel Wrapper-->
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-6">
+
+            <!--Excerpt-->
+            <h4 style="color: white; font-family: Times" class="mb-3"><strong>Title</strong></h4>
+            <p style="color: white; font-family: Times">(Source) - P1
+
+            </p>
+
+            <p style="color: white; font-family: Times">P2
+            </p>
+            <p style="color: white; font-family: Times">by <a><strong>Author</strong></a>, 1:09 PM PST, Wed February 24, 2021 </p>
+
+        </div>
+        <!--Grid column-->
+
     </div>
-    <div class="bottom">
-        <h2 style="text-align:center;">P2-Platypodes</h2>
+    <!--Grid row-->
+
+</section>
+<br/>
+<br/>
+<br/>
+<section id="gallery">      <!-- Article 1 -->
+
+    <!--Grid row-->
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-6 mb-4">
+
+            <!--Carousel Wrapper-->
+            <div id="carousel-example-1z" class="carousel slide carousel-fade carousel-fade" data-ride="carousel">
+                <!--Indicators-->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+                </ol>
+                <!--/.Indicators-->
+                <!--Slides-->
+                <div class="carousel-inner z-depth-1-half" role="listbox">
+                    <!--First slide-->
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="https://www.minnpost.com/wp-content/uploads/2020/03/coronavirusCDC640.png"
+                             alt="First slide">
+                    </div>
+                    <!--/Third slide-->
+                </div>
+                <!--/.Slides-->
+                <!--/.Controls-->
+            </div>
+            <!--/.Carousel Wrapper-->
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-6">
+
+            <!--Excerpt-->
+            <h4 style="color: white; font-family: Times" class="mb-3"><strong>Title</strong></h4>
+            <p style="color: white; font-family: Times">(Source) - P1
+
+            </p>
+
+            <p style="color: white; font-family: Times">P2
+            </p>
+            <p style="color: white; font-family: Times">by <a><strong>Author</strong></a>, 1:09 PM PST, Wed February 24, 2021 </p>
+
+        </div>
+        <!--Grid column-->
+
     </div>
-</div>
+    <!--Grid row-->
 
-<script>
-// Set the date we're counting down to
-var countDownDate = new Date("Feb 12, 2021 12:00:00").getTime();
+</section>
+<br/>
+<br/>
+<br/>
+<section id="gallery">      <!-- Article 1 -->
 
-// Update the count down every 1 second
-var countdownfunction = setInterval(function() {
+    <!--Grid row-->
+    <div class="row">
 
-  // Get todays date and time
-  var now = new Date().getTime();
+        <!--Grid column-->
+        <div class="col-md-6 mb-4">
 
-  // Find the distance between now an the count down date
-  var distance = countDownDate - now;
+            <!--Carousel Wrapper-->
+            <div id="carousel-example-1z" class="carousel slide carousel-fade carousel-fade" data-ride="carousel">
+                <!--Indicators-->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+                </ol>
+                <!--/.Indicators-->
+                <!--Slides-->
+                <div class="carousel-inner z-depth-1-half" role="listbox">
+                    <!--First slide-->
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="https://www.minnpost.com/wp-content/uploads/2020/03/coronavirusCDC640.png"
+                             alt="First slide">
+                    </div>
+                    <!--/Third slide-->
+                </div>
+                <!--/.Slides-->
+                <!--/.Controls-->
+            </div>
+            <!--/.Carousel Wrapper-->
 
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        </div>
+        <!--Grid column-->
 
-  // Output the result in an element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
+        <!--Grid column-->
+        <div class="col-md-6">
 
-  // If the count down is over, write some text
-  if (distance < 0) {
-    clearInterval(countdownfunction);
-    document.getElementById("demo").innerHTML = "EXPIRED";
-  }
-}, 1000);
-</script>
+            <!--Excerpt-->
+            <h4 style="color: white; font-family: Times" class="mb-3"><strong>Title</strong></h4>
+            <p style="color: white; font-family: Times">(Source) - P1
 
+            </p>
+
+            <p style="color: white; font-family: Times">P2
+            </p>
+            <p style="color: white; font-family: Times">by <a><strong>Author</strong></a>, 1:09 PM PST, Wed February 24, 2021 </p>
+
+        </div>
+        <!--Grid column-->
+
+    </div>
+    <!--Grid row-->
+
+</section>
+<br/>
+<br/>
+<br/>
 </body>
-</html>
 {% endblock %}
