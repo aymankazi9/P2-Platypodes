@@ -187,3 +187,7 @@ def learn_route():
 @app.route('/dashboard/')
 def dash_route():
     return render_template("/homesite/dashboard.html", model=model.setup())
+
+@app.route('/subscribe/')
+def sub_route():
+    return render_template("/homesite/subscribe.html", model=model.setup())
