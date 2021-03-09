@@ -10,8 +10,17 @@ Table of contents
 
 * [Run Instructions](#run-instructions)
 * [Git Cloning the Project](#git-instructions)
-* [Installation](#)
+* [Project Details](#)
 * [Project Plan](#project-plan)
+* [Project Deliverables](#project-deliverables)
+  * [2/15-2/19: Mini Code and Ticket Review](#mini-code-and-ticket-review)
+  * [2/1-2/5: Easter Egg and Big Ticket Items](#delivery-of-easter-egg-and-big-ticket-items)
+  * [1/11-1/15: Running Code and Big Ticket Items](#delivery-of-running-code-and-big-ticket-items)
+* [Project Records](#project-record)
+  * [Scrum Board](#scrum-board)
+  * [Project Log](#project-log)
+
+<img src="/static/Landing%20Page.png" height="auto">
 
 ## Run Instructions
 * Paste this link into your browser window or simply click on the link.
@@ -27,12 +36,14 @@ Table of contents
 * Once the project is opened up, be sure to change the interpreter to any version of Python 3. 
 * Run the project from wsgi.py, and you're all set!
 
-## Project Details
-* 
-
 ### Project Plan
 * Here is where we started, we made a plan of action and hope to follow it closely and make this a COVID-19 tracker to be recokened with.
 * [Project Plan](https://docs.google.com/document/d/1MceTKLU3TJTQg3PkqIcMLYa7U4R2ov4QtojF4i7mKLc/edit)
+
+---
+
+## Project Details
+* 
 
 --------
 
