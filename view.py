@@ -192,10 +192,17 @@ def learn_route():
 def dash_route():
     return render_template("/homesite/dashboard.html", model=model.setup())
 
+
 @app.route('/subscribe/')
 def sub_route():
     return render_template("/homesite/subscribe.html", model=model.setup())
 
+
 @app.route('/requirements/')
 def requirement_route():
     return render_template("/altdimension/cbrequirements.html", model=model.setup())
+
+
+@app.route('/journal/')
+def journal_route():
+    return render_template("/altdimension/journal.html", model=model.setup())
