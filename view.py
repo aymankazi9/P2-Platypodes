@@ -195,3 +195,7 @@ def dash_route():
 @app.route('/subscribe/')
 def sub_route():
     return render_template("/homesite/subscribe.html", model=model.setup())
+
+@app.route('/requirements/')
+def requirement_route():
+    return render_template("/altdimension/cbrequirements.html", model=model.setup())
