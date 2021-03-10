@@ -71,7 +71,27 @@ or check out our [website promotion video](https://www.youtube.com/watch?v=9CB3u
 <img src="/static/READMEpics/hotspotca.png" height="auto" width="50%"> <br>
 
 ## Project Technicals
-* 
+
+#### COVID-19 Statistics
+* Data scrapped from Worldometers using algorithms found in stats.py
+* Scrapped data is oriented into lists in order to be used in the front end
+* CSS and other styling elements used to style the data table and match website aesthetic
+* Map is fully linked and all states scroll down to desired data
+
+#### Home
+* Welcoming page with highlights and a quick news article
+* Describes motive of website and general details about COVID-19
+* Parallax effect for COVID-19 Art at the top of home
+
+#### Information Pages
+* Display information through use of CSS and other styling elements
+* Provide great function with prevention techniques, general trends of COVID-19, frequently asked questions about COVID-19 
+as well as other resources for further knowledge
+* Organized in a nice menu and separate home page with each resource
+
+#### Dashboard
+* Only accessible after logging in. Gives logged-in users a more personal experience
+* Login and Signup page matches theme of website and provides function login storage into database
 
 --------
 
