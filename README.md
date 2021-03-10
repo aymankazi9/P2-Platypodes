@@ -49,7 +49,7 @@ Table of contents
 
 ## Project Highlights
 * This is a brief gallery of major highlights of the project. For more guidance, visit [Project Technicals](#project-technicals) 
-or check out our [website promotion video](https://www.youtube.com/watch?v=9CB3u6HePH8). <br><br>
+or check out our [website promotion video](https://www.youtube.com/watch?v=9CB3u6HePH8). All these highlights can be accessed through the menu system. <br><br>
   
 * Login/Signup <br>
 <img src="/static/home/login-signup.png" height="auto" width="50%"> <br>
@@ -234,8 +234,32 @@ __________________
 * [Scrum Board](https://github.com/aymankazi9/P2-Platypodes/projects/1?fullscreen=true)
 
 ### Project Log
+* 
+
+#### March 2021
+* **03/09/21**: Website is complete, all journals are embedded. Website updated for possibly the last time on RPi. :(
+* **03/08/21**: Dashboard finalized, updated, and completed with a return to home button. California and New York hotspot pages are complete and have developer-researched information. One journal embedded in TPT.
+* **03/07/21**: Feedback changed slightly to give more room. Subscribe feature added to add your email to an email list. Newspage complete with new aesthetic and 4 new news articles. Website trailer complete, go check it out!
+* **03/05/21**: COVID-19 statistics map and data table page have design overhaul to match the design of other pages in the website. Icons added to the table header. About us theme and look also changed to better fit the website.
+* **03/03/21**: Created dashboard templates and have a general format. Will be completed with CSS and matching themes very soon.
+* **03/02/21**: All provinces in COVID-19 map can be selected and will yield scroll values down to each respective row. Hamburger menu added to better complement the website. Prevention, FAQ, Basealt menu edited and completed. Hamburger menu items have icons and Alternate Dimension portal is better hidden.
+
+#### February 2021
+* **02/27/21**: Home page redesign is complete. Now includes scrolling down and other items other than COVID art. Inlcudes highlights, website/developer goals, and news snippet.
+* **02/26/21**: COVID-19 statistics table now smooth-scrolls down to the table when clicked on respective state. Scroll still only moves to the top of the table. Investigation is being done to scroll to every <tr>.
+* **02/21/21**: Images in the information page now links to each informational page. Informational templates are still incomplete, started work on them.
+* **02/18/21**: FAQ redesign complete with new informational pages all under the major information page group.
+* **02/17/21**: Login page now combines both signup and previous login into one page with swiveling CSS animation to flip between the two. All inputs are still required for both login and signup. Made minor adjustments to view in order to work with this change of template calls.
+* **02/16/21**: Feedback form now follows new design language and now requires all inputs. Form submission will be unsuccessful without all inputs.
+* **02/06/21**: Database linkage to the login page is complete. Stored signup information can now be input into the login and create successful login. Incorrect credentials will result in an error message.
+* **02/05/21**: Who are we sections updated for all developers. Problem with cookie consent banner and the url is resolved.
+* **02/04/21**: Cookie consent banner added for when opening the website for the first time. Who are we as computer scientists also added. Update with information in .md file coming soon.
 
 #### January 2021
+* **01/28/21**: Easter Egg link added to the readme. Gateway still doesn't exist. Aesthetics for TPT page updated and follows the theme guidelines of the Alternate Dimension.
+* **01/27/21**: Alternate Dimension added and can be accessed. Gateway currently doesn't exist. CB and Test prep items to be added into this part of the website.
+* **01/18/21**: Feedback submissions linked to the database. Feedback submissions can now be viewed with the db browser.
+* **01/17/21**: COVID-19 statistics table now formatted with CSS to better match the website aesthetics.
 * **01/15/21**: Deployment is complete, users can now use an external IP to access the website without having to pull from git. Runtime link is as follows: http://76.176.59.167. Paste into your browser to access.
 * **01/14/21**: Aesthetics 100% complete across the website. Every page carries the website's aesthetics. As of right now, the website's frontend materials are complete. Javascript also added to the News Page to create a gradient. May be utilizing that for other pages to come. Countdown timer added to News Page for interesting "Coming Soon" notification. Updated Feedback Forms to be more insightful of user feedback rather than just storing user data. Still requires backend support to file the feedback into the database.
 * **01/13/21**: Added lots of CSS to login and signup page to fix the aesthetics on those pages. Need backend support for compiling data and being able to access logins. Javascript to be added very soon.
