@@ -42,7 +42,16 @@ Table of contents
 
 ---
 
-## Project Details
+# Project Details
+
+
+## Project Highlights
+* This is a brief gallery of major highlights of the project. For more guidance, visit [Project Technicals](#project-technicals) 
+or check out our website promotion video. <br>[![IMAGE ALT TEXT](/static/yt.png)](https://www.youtube.com/watch?v=9CB3u6HePH8)
+
+.
+
+## Project Technicals
 * 
 
 --------
