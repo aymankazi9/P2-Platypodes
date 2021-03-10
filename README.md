@@ -52,23 +52,23 @@ Table of contents
 or check out our [website promotion video](https://www.youtube.com/watch?v=9CB3u6HePH8). <br><br>
   
 * Login/Signup <br>
-<img src="/static/home/login-signup.png" height="auto" width="30%"> <br>
+<img src="/static/home/login-signup.png" height="auto" width="50%"> <br>
 
 * Data Map <br>
-<img src="/static/home/map.png" height="auto" width="30%"> <br>
+<img src="/static/home/map.png" height="auto" width="50%"> <br>
 
 * Statistics Table <br>
-<img src="/static/home/stats.png" height="auto" width="30%"> <br>
+<img src="/static/home/stats.png" height="auto" width="50%"> <br>
 
 * News <br>
-<img src="/static/READMEpics/newspage.png" height="auto" width="30%"> <br>
+<img src="/static/READMEpics/newspage.png" height="auto" width="50%"> <br>
 
 * Prevention Tips <br>
-<img src="/static/READMEpics/prevention.png" height="auto" width="30%"> <br>
+<img src="/static/READMEpics/prevention.png" height="auto" width="50%"> <br>
 
 
 * Hotspot Articles <br>
-<img src="/static/READMEpics/hotspotca.png" height="auto" width="30%"> <br>
+<img src="/static/READMEpics/hotspotca.png" height="auto" width="50%"> <br>
 
 ## Project Technicals
 * 
