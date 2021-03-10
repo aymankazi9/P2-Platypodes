@@ -26,7 +26,7 @@ Table of contents
 
 ## Run Instructions
 * Paste this link into your browser window or simply click on the link.
-* [Website](http://platypodestracker.cf/)
+* [Website](https://http//76.176.59.167/)
 * [Portal to an Alternate Dimension?](http://platypodestracker.cf/home2/)
 
 ## Git Instructions
