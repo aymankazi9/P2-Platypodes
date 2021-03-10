@@ -10,7 +10,9 @@ Table of contents
 
 * [Run Instructions](#run-instructions)
 * [Git Cloning the Project](#git-instructions)
-* [Project Details](#)
+* [Project Details](#project-details)
+  * [Project Gallery](#project-highlights)
+  * [Project Technicals](#project-technicals)
 * [Project Plan](#project-plan)
 * [Project Deliverables](#project-deliverables)
   * [2/15-2/19: Mini Code and Ticket Review](#mini-code-and-ticket-review)
@@ -47,9 +49,26 @@ Table of contents
 
 ## Project Highlights
 * This is a brief gallery of major highlights of the project. For more guidance, visit [Project Technicals](#project-technicals) 
-or check out our website promotion video. <br>[![IMAGE ALT TEXT](/static/yt.png)](https://www.youtube.com/watch?v=9CB3u6HePH8)
+or check out our [website promotion video](https://www.youtube.com/watch?v=9CB3u6HePH8). <br><br>
+  
+* Login/Signup <br>
+<img src="/static/home/login-signup.png" height="auto"> <br>
 
-.
+* Data Map <br>
+<img src="/static/home/map.png" height="auto"> <br>
+
+* Statistics Table <br>
+<img src="/static/home/stats.png" height="auto"> <br>
+
+* News <br>
+<img src="/static/READMEpics/newspage.png" height="auto"> <br>
+
+* Prevention Tips <br>
+<img src="/static/READMEpics/prevention.png" height="auto"> <br>
+
+
+* Hotspot Articles <br>
+<img src="/static/READMEpics/hotspotca.png" height="auto"> <br>
 
 ## Project Technicals
 * 
