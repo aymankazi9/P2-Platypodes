@@ -52,23 +52,23 @@ Table of contents
 or check out our [website promotion video](https://www.youtube.com/watch?v=9CB3u6HePH8). <br><br>
   
 * Login/Signup <br>
-<img src="/static/home/login-signup.png" height="auto" width="30px"> <br>
+<img src="/static/home/login-signup.png" height="auto" width="30%"> <br>
 
 * Data Map <br>
-<img src="/static/home/map.png" height="auto" width="30px"> <br>
+<img src="/static/home/map.png" height="auto" width="30%"> <br>
 
 * Statistics Table <br>
-<img src="/static/home/stats.png" height="auto" width="30px"> <br>
+<img src="/static/home/stats.png" height="auto" width="30%"> <br>
 
 * News <br>
-<img src="/static/READMEpics/newspage.png" height="auto" width="30px"> <br>
+<img src="/static/READMEpics/newspage.png" height="auto" width="30%"> <br>
 
 * Prevention Tips <br>
-<img src="/static/READMEpics/prevention.png" height="auto" width="30px"> <br>
+<img src="/static/READMEpics/prevention.png" height="auto" width="30%"> <br>
 
 
 * Hotspot Articles <br>
-<img src="/static/READMEpics/hotspotca.png" height="auto" width="30px"> <br>
+<img src="/static/READMEpics/hotspotca.png" height="auto" width="30%"> <br>
 
 ## Project Technicals
 * 
@@ -130,7 +130,6 @@ and Feedback
 
 ## Delivery of Easter Egg and Big Ticket Items
 ### Week of 2/1 - 2/5
-
 ### Easter Egg Landing Page: [Link to Ticket](https://github.com/aymankazi9/P2-Platypodes/projects/1#card-53688061)
 * Picked new theme colors for the Easter Egg part of our website (Alternate Dimension)
   * Theme applied with [inline CSS](https://github.com/aymankazi9/P2-Platypodes/blob/main/templates/altdimension/home2.html#L8-L13) on the landing page.
