@@ -234,7 +234,6 @@ __________________
 * [Scrum Board](https://github.com/aymankazi9/P2-Platypodes/projects/1?fullscreen=true)
 
 ### Project Log
-* 
 
 #### March 2021
 * **03/09/21**: Website is complete, all journals are embedded. Website updated for possibly the last time on RPi. :(
